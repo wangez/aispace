@@ -6,6 +6,18 @@
 
 ---
 
+## 初始化
+
+- 根目录、server、web均需安装依赖
+- mongodb创建数据库system_db、bus_db
+- 删除了注册功能，需要手动导入用户数据，数据库system_db中新建集合user，导入system_db.user.json
+
+## 启动
+
+- **启动chroma服务**：`npm run chroma`
+- **启动node服务**：`npm run node`
+- **启动前端**：`npm run web`
+
 ## 技术栈总览
 
 ```mermaid

@@ -2,7 +2,6 @@
 node_modules
 /dist
 getting-started
-*.sqlite3
 
 # local env files
 .env

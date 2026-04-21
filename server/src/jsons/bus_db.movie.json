@@ -1,0 +1,225 @@
+[{
+  "year": 2025,
+  "rank": 1,
+  "name": "哪吒之魔童闹海",
+  "release_date": "2025-01-29",
+  "director": "饺子（杨宇）",
+  "cast": "吕艳婷, 囧森瑟夫, 瀚墨, 陈浩, 绿绮",
+  "box_office": "154.46亿元（人民币）"
+},
+{
+  "year": 2025,
+  "rank": 2,
+  "name": "疯狂动物城2",
+  "release_date": "2025-11-26",
+  "director": "拜伦·霍华德（Byron Howard）, 杰拉德·布什（Jared Bush）",
+  "cast": "金妮弗·古德温（Ginnifer Goodwin）, 杰森·贝特曼（Jason Bateman）, 关继威（Ke Huy Quan）, 夏奇拉（Shakira）",
+  "box_office": "约14.3亿美元"
+},
+{
+  "year": 2025,
+  "rank": 3,
+  "name": "星际宝贝：史迪奇",
+  "release_date": "2025-05-23",
+  "director": "迪恩·弗雷斯彻-坎普（Dean Fleischer-Camp）",
+  "cast": "玛雅·基洛哈（Maia Kealoha）, 克里斯·桑德斯（Chris Sanders）",
+  "box_office": "约10.5亿美元"
+},
+{
+  "year": 2025,
+  "rank": 4,
+  "name": "我的世界大电影",
+  "release_date": "2025-04-04",
+  "director": "杰瑞德·赫斯（Jared Hess）",
+  "cast": "杰森·莫玛（Jason Momoa）, 杰克·布莱克（Jack Black）",
+  "box_office": "约9.9亿美元"
+},
+{
+  "year": 2025,
+  "rank": 5,
+  "name": "侏罗纪世界：重生",
+  "release_date": "2025-07-02",
+  "director": "加里斯·爱德华斯（Gareth Edwards）",
+  "cast": "斯嘉丽·约翰逊（Scarlett Johansson）, 乔纳森·贝利（Jonathan Bailey）",
+  "box_office": "约8.7亿美元"
+},
+{
+  "year": 2024,
+  "rank": 1,
+  "name": "头脑特工队2",
+  "release_date": "2024-06-14",
+  "director": "凯尔西·曼（Kelsey Mann）",
+  "cast": "艾米·波勒（Amy Poehler）, 玛雅·霍克（Maya Hawke）, 黛安·莲恩（Diane Lane）",
+  "box_office": "16.98亿美元"
+},
+{
+  "year": 2024,
+  "rank": 2,
+  "name": "死侍与金刚狼",
+  "release_date": "2024-07-26",
+  "director": "肖恩·利维（Shawn Levy）",
+  "cast": "瑞安·雷诺兹（Ryan Reynolds）, 休·杰克曼（Hugh Jackman）, 艾玛·科林（Emma Corrin）",
+  "box_office": "13.38亿美元"
+},
+{
+  "year": 2024,
+  "rank": 3,
+  "name": "海洋奇缘2",
+  "release_date": "2024-11-27",
+  "director": "小戴夫·德里克（Dave Derrick Jr.）",
+  "cast": "奥丽伊·卡瓦洛（Auliʻi Cravalho）, 道恩·强森（Dwayne Johnson）",
+  "box_office": "10.13亿美元"
+},
+{
+  "year": 2024,
+  "rank": 4,
+  "name": "神偷奶爸4",
+  "release_date": "2024-07-03",
+  "director": "克里斯·雷纳德（Chris Renaud）",
+  "cast": "史蒂夫·卡瑞尔（Steve Carell）, 克里斯汀·韦格（Kristen Wiig）",
+  "box_office": "9.69亿美元"
+},
+{
+  "year": 2024,
+  "rank": 5,
+  "name": "沙丘2",
+  "release_date": "2024-03-01",
+  "director": "丹尼斯·维伦纽瓦（Denis Villeneuve）",
+  "cast": "提莫西·查拉梅（Timothée Chalamet）, 赞达亚（Zendaya）",
+  "box_office": "7.1亿美元"
+},
+{
+  "year": 2023,
+  "rank": 1,
+  "name": "芭比",
+  "release_date": "2023-07-21",
+  "director": "格蕾塔·葛韦格（Greta Gerwig）",
+  "cast": "玛格特·罗比（Margot Robbie）, 瑞恩·高斯林（Ryan Gosling）",
+  "box_office": "14.45亿美元"
+},
+{
+  "year": 2023,
+  "rank": 2,
+  "name": "超级马里奥兄弟大电影",
+  "release_date": "2023-04-05",
+  "director": "亚伦·霍瓦斯（Aaron Horvath）, 迈克尔·杰勒尼克（Michael Jelenic）",
+  "cast": "克里斯·帕拉特（Chris Pratt）, 安雅·泰勒-乔伊（Anya Taylor-Joy）",
+  "box_office": "13.62亿美元"
+},
+{
+  "year": 2023,
+  "rank": 3,
+  "name": "奥本海默",
+  "release_date": "2023-07-21",
+  "director": "克里斯托弗·诺兰（Christopher Nolan）",
+  "cast": "基里安·墨菲（Cillian Murphy）, 艾米莉·布朗特（Emily Blunt）",
+  "box_office": "9.52亿美元"
+},
+{
+  "year": 2023,
+  "rank": 4,
+  "name": "银河护卫队3",
+  "release_date": "2023-05-05",
+  "director": "詹姆斯·古恩（James Gunn）",
+  "cast": "克里斯·帕拉特（Chris Pratt）, 佐伊·索尔达娜（Zoe Saldaña）",
+  "box_office": "8.46亿美元"
+},
+{
+  "year": 2023,
+  "rank": 5,
+  "name": "速度与激情10",
+  "release_date": "2023-05-19",
+  "director": "路易斯·莱特里尔（Louis Leterrier）",
+  "cast": "范·迪塞尔（Vin Diesel）, 杰森·莫玛（Jason Momoa）",
+  "box_office": "7.05亿美元"
+},
+{
+  "year": 2022,
+  "rank": 1,
+  "name": "阿凡达：水之道",
+  "release_date": "2022-12-16",
+  "director": "詹姆斯·卡梅隆（James Cameron）",
+  "cast": "萨姆·沃辛顿（Sam Worthington）, 佐伊·索尔达娜（Zoe Saldaña）",
+  "box_office": "23.20亿美元"
+},
+{
+  "year": 2022,
+  "rank": 2,
+  "name": "壮志凌云2：独行侠",
+  "release_date": "2022-05-27",
+  "director": "约瑟夫·科辛斯基（Joseph Kosinski）",
+  "cast": "汤姆·克鲁斯（Tom Cruise）, 迈尔斯·特勒（Miles Teller）",
+  "box_office": "14.96亿美元"
+},
+{
+  "year": 2022,
+  "rank": 3,
+  "name": "侏罗纪世界3",
+  "release_date": "2022-06-10",
+  "director": "科林·特莱沃若（Colin Trevorrow）",
+  "cast": "克里斯·帕拉特（Chris Pratt）, 布莱丝·达拉斯·霍华德（Bryce Dallas Howard）",
+  "box_office": "10.02亿美元"
+},
+{
+  "year": 2022,
+  "rank": 4,
+  "name": "奇异博士2：疯狂多元宇宙",
+  "release_date": "2022-05-06",
+  "director": "山姆·雷米（Sam Raimi）",
+  "cast": "本尼迪克特·康伯巴奇（Benedict Cumberbatch）, 伊丽莎白·奥尔森（Elizabeth Olsen）",
+  "box_office": "9.55亿美元"
+},
+{
+  "year": 2022,
+  "rank": 5,
+  "name": "小黄人大眼萌：神偷奶爸前传",
+  "release_date": "2022-07-01",
+  "director": "凯尔·巴尔达（Kyle Balda）",
+  "cast": "史蒂夫·卡瑞尔（Steve Carell）, 皮埃尔·柯芬（Pierre Coffin）",
+  "box_office": "9.40亿美元"
+},
+{
+  "year": 2021,
+  "rank": 1,
+  "name": "蜘蛛侠：英雄无归",
+  "release_date": "2021-12-17",
+  "director": "乔·沃茨（Jon Watts）",
+  "cast": "汤姆·赫兰德（Tom Holland）, 赞达亚（Zendaya）, 本尼迪克特·康伯巴奇（Benedict Cumberbatch）",
+  "box_office": "19.1亿美元"
+},
+{
+  "year": 2021,
+  "rank": 2,
+  "name": "长津湖",
+  "release_date": "2021-09-30",
+  "director": "陈凯歌, 徐克, 林超贤",
+  "cast": "吴京, 易烊千玺, 段奕宏",
+  "box_office": "57.75亿元（人民币）"
+},
+{
+  "year": 2021,
+  "rank": 3,
+  "name": "你好，李焕英",
+  "release_date": "2021-02-12",
+  "director": "贾玲",
+  "cast": "贾玲, 张小斐, 沈腾",
+  "box_office": "54.13亿元（人民币）"
+},
+{
+  "year": 2021,
+  "rank": 4,
+  "name": "007：无暇赴死",
+  "release_date": "2021-09-30",
+  "director": "凯瑞·福永（Cary Fukunaga）",
+  "cast": "丹尼尔·克雷格（Daniel Craig）, 蕾雅·赛杜（Léa Seydoux）",
+  "box_office": "10.49亿美元"
+},
+{
+  "year": 2021,
+  "rank": 5,
+  "name": "速度与激情9",
+  "release_date": "2021-05-19",
+  "director": "林诣彬（Justin Lin）",
+  "cast": "范·迪塞尔（Vin Diesel）, 约翰·塞纳（John Cena）",
+  "box_office": "9.85亿美元"
+}]

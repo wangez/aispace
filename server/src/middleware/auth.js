@@ -1,7 +1,16 @@
-// middleware/auth.js
 const Session = require('../models/Session');
 
 module.exports = async (req, res, next) => {
+    let url = req.url
+    if (url.indexOf('/api/set/') !== 0 && url.indexOf('/api/auth/') !== 0) {
+        console.log(url)
+        console.log('DEEPSEEK_API_KEY', process.env.DEEPSEEK_API_KEY, 'DASHSCOPE_API_KEY', process.env.DASHSCOPE_API_KEY)
+        console.log(!process.env.DEEPSEEK_API_KEY, !process.env.DASHSCOPE_API_KEY)
+        if (!process.env.DEEPSEEK_API_KEY && !process.env.DASHSCOPE_API_KEY) {
+            return res.status(402).json({ message: '未设置模型key' });
+        }
+    }
+
     // 获取 Authorization 头
     const authHeader = req.headers.authorization;
     if (!authHeader || !authHeader.startsWith('Bearer ')) {

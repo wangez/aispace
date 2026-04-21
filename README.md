@@ -8,9 +8,9 @@
 
 ## 初始化
 
-- 根目录、server、web均需安装依赖
+- server、web均需安装依赖
 - mongodb创建数据库system_db、bus_db
-- 删除了注册功能，需要手动导入用户数据，数据库system_db中新建集合user，导入system_db.user.json
+- 执行`npm run init`，判断有无.env文件，若没有.env则生成；初始化mongodb数据库，可用此命令重置数据库，不会重置.env文件
 
 ## 启动
 

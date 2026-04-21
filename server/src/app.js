@@ -6,6 +6,7 @@ const cors = require('cors');
 const authRoutes = require('./routes/auth');
 const historyRoutes = require('./routes/history');
 const chatRoutes = require('./routes/chat');
+const setRoutes = require('./routes/set');
 const embeddingRoutes = require('./routes/embedding');
 
 const authMiddleware = require('./middleware/auth');
@@ -24,6 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/auth', authRoutes);
 app.use(authMiddleware)
 app.use('/api/history', historyRoutes);
+app.use('/api/set', setRoutes);
 app.use('/api/chat', chatRoutes);
 app.use('/api/embedding', embeddingRoutes);
 

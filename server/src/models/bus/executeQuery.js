@@ -16,9 +16,7 @@ async function executeQuery(collectionName, queryCode) {
     }
 
     // 使用 Function 构造器执行，传入 model 作为上下文
-    const func = new Function('model', `return (async () => {
-    ${queryCode}
-})();`);
+    const func = new Function('m', `return (${queryCode})();`);
     return await func(model);
 }
 

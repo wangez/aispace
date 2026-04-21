@@ -5,13 +5,13 @@ const EMBEDDING_URL = 'https://dashscope.aliyuncs.com/compatible-mode/v1';
 const MODEL_NAME = 'text-embedding-v4';
 const VECTOR_DIM = 1024;
 
-const client = new OpenAI({
-    apiKey: DASHSCOPE_API_KEY,
-    baseURL: EMBEDDING_URL
-});
 
 async function getEmbedding(text) {
     try {
+        const client = new OpenAI({
+            apiKey: DASHSCOPE_API_KEY,
+            baseURL: EMBEDDING_URL
+        });
         const completion = await client.embeddings.create({
             model: MODEL_NAME,
             input: text,

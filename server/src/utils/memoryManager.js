@@ -3,13 +3,14 @@ const LongTermMemory = require('../models/LongTermMemory');
 const { ChatDeepSeek } = require('@langchain/deepseek');
 const { PromptTemplate } = require('@langchain/core/prompts');
 
-// 使用同一个模型实例（温度可以调低一点，让总结更稳定）
-const summaryLLM = new ChatDeepSeek({
-    model: 'deepseek-reasoner',
-    temperature: 0.3
-});
 // 从一段对话历史中提取摘要和关键事实
 async function extractSummaryAndFacts(messages) {
+    // 使用同一个模型实例（温度可以调低一点，让总结更稳定）
+    const summaryLLM = new ChatDeepSeek({
+        model: 'deepseek-reasoner',
+        temperature: 0.3
+    });
+
     const conversationText = messages
         .map(m => `${m.role}: ${m.content}`)
         .join('\n');

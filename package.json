@@ -15,11 +15,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "init": "cd server && node src/init",
     "chroma": "cd server/chroma && chroma-windows.exe run --path getting-started",
-    "node": "cd server && nodemon src/app.js",
+    "node": "cd server && npm run dev",
     "web": "cd web && npm run dev"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
   }
 }

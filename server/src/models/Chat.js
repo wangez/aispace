@@ -57,5 +57,6 @@ async function getChatByHistory(historyId) {
 
 module.exports = {
     getChatByHistory,
-    saveChat
+    saveChat,
+    Chat
 }

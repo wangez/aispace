@@ -13,15 +13,6 @@ const { upsertQTVector, queryQTSimilarCollections } = require('../services/typeI
 const { executeQuery } = require('../models/bus/executeQuery')
 
 const router = express.Router()
-// 模型配置
-const llm = new ChatDeepSeek({
-    model: 'deepseek-reasoner',
-    temperature: 0.7
-})
-const llmInvoke = new ChatDeepSeek({
-    model: 'deepseek-chat',
-    temperature: 0
-})
 
 // 原子自增计数器
 async function getNextSequenceValue(sequenceId) {
@@ -90,12 +81,20 @@ async function creatBusMessage(req, content, addToTemp, historyId) {
         await loadHistoryChat(queryMsg, historyId)
         // 找到对应的集合
         const queryGenPrompt = `
-根据用户问题生成可执行的 JavaScript 代码（async 函数体），入参名称model使用传入的 Mongoose model 返回查询结果。
-要求：只读操作（find/aggregate/countDocuments），不修改数据，代码用 return 返回结果，只输出代码无解释。
+根据用户问题生成可执行的 JavaScript 代码。
+要求：
+- 只读操作（find/aggregate/countDocuments），不修改数据
+- 使用 Mongoose model 返回查询结果, model命名为m
+- 返回async 匿名函数
+- 只输出代码无解释。
 用户问题：${content}
 可用集合 Schema：${match[0].doc}`
         queryMsg.push({ role: 'user', content: queryGenPrompt })
 
+        const llmInvoke = new ChatDeepSeek({
+            model: 'deepseek-chat',
+            temperature: 0
+        })
         const response = await llmInvoke.invoke(queryMsg) // 调用 LLM 生成查询语句
         const cleanCode = response.content.replace(/```javascript|```/g, '').trim()
         console.log('query code: ', cleanCode)
@@ -121,6 +120,11 @@ async function creatBusMessage(req, content, addToTemp, historyId) {
 }
 // 流式调用 LLM
 async function dollmStream(res, messages) {
+    // 模型配置
+    const llm = new ChatDeepSeek({
+        model: 'deepseek-reasoner',
+        temperature: 0.7
+    })
     const stream = await llm.stream(messages)
     let fullContent = ''
     for await (const chunk of stream) {
@@ -146,6 +150,7 @@ router.post('/', async (req, res) => {
             // 用户没有选择 聊天 还是 查询统计业务数据  
             await upsertQTVector()
             let match = await queryQTSimilarCollections(content)
+            console.log(match)
             type = match.role
         }
         if (type === 'chat') {
@@ -153,6 +158,7 @@ router.post('/', async (req, res) => {
             console.log('快速意图分类')
             type = await isProgrammingRelated(content);
         }
+        console.log(type)
         roleInfo = (await Role.find({ code: type }))[0]
 
 

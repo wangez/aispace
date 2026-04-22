@@ -23,9 +23,9 @@ app.use(express.urlencoded({ extended: true }));
 
 // 路由
 app.use('/api/auth', authRoutes);
+app.use('/api/set', setRoutes);
 app.use(authMiddleware)
 app.use('/api/history', historyRoutes);
-app.use('/api/set', setRoutes);
 app.use('/api/chat', chatRoutes);
 app.use('/api/embedding', embeddingRoutes);
 

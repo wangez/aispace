@@ -1,7 +1,7 @@
-// 引用依赖
 const express = require('express')
 const { createOpenAI } = require('@ai-sdk/openai');
 const { streamText } = require('ai');
+
 const { queryTopProducts, getProductSales } = require('../tools/sale');
 
 const router = express.Router()
@@ -34,11 +34,11 @@ function runAgentStream(userQuestion) {
         model,
         messages,
         tools: {
-            queryTopProducts,    // 现在它们是符合格式的 tool 对象
+            queryTopProducts,
             getProductSales,
         },
-        maxSteps: 10,
-        temperature: 0.1,
+        maxSteps: 10,          // 最大工具调用轮数
+        temperature: 0.1,      // 可调整，保持输出稳定
     });
 }
 
@@ -56,35 +56,9 @@ router.post('/', async (req, res) => {
 
     try {
         const streamResult = runAgentStream(question);
-
-        const reader = streamResult.textStream.getReader();
-        console.log('reader', reader)
-        try {
-            while (true) {
-                const { done, value } = await reader.read();
-                console.log('value', value)
-                if (done) break;
-
-                // 发送文本增量，格式符合 SSE 规范
-                res.write(`data: ${JSON.stringify({ delta: value })}\n\n`);
-            }
-            // 发送结束标志
-            res.write(`data: [DONE]\n\n`);
-            res.end();
-        } catch (streamError) {
-            console.error('流式传输错误:', streamError);
-            res.write(`data: ${JSON.stringify({ error: '流式处理中断' })}\n\n`);
-            res.end();
-        }
+        return streamResult.pipeDataStreamToResponse(res);
     } catch (error) {
-        console.error('API处理出错:', error);
-        // 若流尚未开始，返回常规 JSON 错误
-        if (!res.headersSent) {
-            res.status(500).json({ error: '处理请求时发生错误' });
-        } else {
-            res.write(`data: ${JSON.stringify({ error: '内部错误' })}\n\n`);
-            res.end();
-        }
+        res.status(500).json({ error: '处理请求时发生错误' });
     }
 });
 

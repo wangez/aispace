@@ -2,8 +2,10 @@
 const express = require('express')
 const predictWithTrend = require('./chatRouters/predictWithTrend')
 const advancedIntentRecognition = require('./chatRouters/advancedIntentRecognition')
-const { saveChat } = require('../models/SysChat')
-
+const { getChatByHistory, saveChat } = require('../models/SysChat')
+const History = require('../models/SysHistory')
+const Counter = require('../models/SysCounter')
+const writeSSE = require('../tools/writeSSE')
 
 const router = express.Router()
 
@@ -36,26 +38,18 @@ async function initialize(req) {
     return { content, historyId, order, userId }
 }
 
-// SSE 写入辅助函数
-function writeSSE(res, event, data) {
-    res.write(`event: ${event}\n`)
-    res.write(`data: ${JSON.stringify(data)}\n\n`)
-}
-
 router.post('/', async (req, res) => {
     setHeader(res)
     const { content, historyId, order, userId } = await initialize(req)
     const aiChat = await saveChat(content, historyId, order)
     // 发送元数据
-    writeSSE(res, 'meta', { history, chatId: aiChat._id })
+    writeSSE(res, 'meta', { historyId, chatId: aiChat._id })
     try {
         const result = await advancedIntentRecognition(req.body.content)
 
-        console.log(result.intent)
         if (result.intent === 'predict_with_trend') {
             predictWithTrend(res, req.body.content)
         }
-        // await runAgent(res, '帮我看看2026年3月华东区卖得最好的产品是啥，跟2026年4月比涨了还是跌了？');
         // 发送结束标记
         res.write(`data: [DONE]\n\n`);
         res.end();
@@ -68,6 +62,17 @@ router.post('/', async (req, res) => {
             res.write(`data: ${JSON.stringify({ error: '内部错误' })}\n\n`);
             res.end();
         }
+    }
+});
+
+// 获取指定会话的对话记录
+router.get('/:historyId', async (req, res) => {
+    try {
+        console.log(req.params.historyId)
+        const chats = await getChatByHistory(req.params.historyId)
+        res.json({ success: true, data: chats })
+    } catch (error) {
+        res.status(500).json({ success: false, message: 'Server error', error: error.message })
     }
 });
 

@@ -1,9 +1,7 @@
 // 请求体类型
 export interface CreateConversationRequest {
   content: string;
-  type: string;
   historyId: string | undefined;
-  addToTemp: boolean;
 }
 
 // SSE 事件类型枚举
@@ -11,10 +9,7 @@ export type SSEEventType = 'meta' | 'delta' | 'done' | 'error';
 
 // Meta 事件数据结构
 export interface MetaEventData {
-  history: {
-    _id: string,
-    label: string
-  };
+  historyId: string;
   chatId: string;
 }
 

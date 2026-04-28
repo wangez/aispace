@@ -3,6 +3,7 @@ const { z } = require("zod");
 const { createAgent, tool, createMiddleware } = require("langchain")
 const agentMessage = require("../../tools/agentMessage")
 const { dsReasonerZero } = require('../../config/LLMs')
+const writeSSE = require('../../tools/writeSSE')
 
 const usageSchema = new mongoose.Schema({
     user_id: { type: String, ref: 'User' },
@@ -160,8 +161,7 @@ const get12MounthUsage = tool(
     },
     {
         name: "get_product_sales",
-        description:
-            "获取台区或用户某一年的用电量",
+        description: "获取台区或用户某年12个月每个月的用电量, 不满12个月有多少返回多少",
         schema: z.object({
             type: z.string().describe("查询目标是台区还是用户，例如 台区"),
             year: z.number().describe("年份，例如 2025"),
@@ -233,9 +233,8 @@ async function runAgent(res, userQuestion, saveMsg) {
                 const reasoning = messageChunk.additional_kwargs?.reasoning_content;
                 if (reasoning) {
                     // 发送思考过程事件
-                    // res.write(`event: thought\n`);
-                    // res.write(`data: ${JSON.stringify({ content: reasoning })}\n\n`);
-                    process.stdout.write(reasoning);
+                    // writeSSE(res, 'delta', { content: reasoning })
+                    // process.stdout.write(reasoning);
                 }
 
                 // 2. 处理正式回答内容（支持 contentBlocks 或 content）
@@ -249,8 +248,7 @@ async function runAgent(res, userQuestion, saveMsg) {
 
                 if (textContent) {
                     process.stdout.write(textContent);
-                    // res.write(`event: answer\n`);
-                    // res.write(`data: ${JSON.stringify({ content: textContent })}\n\n`);
+                    writeSSE(res, 'delta', { content: reasoning })
                 }
             } catch (e) {
                 console.log(e)

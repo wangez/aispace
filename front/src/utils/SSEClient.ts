@@ -227,7 +227,6 @@ export class SSEClient {
      */
     private emit<T extends SSEEventType>(event: T, data: SSEEventDataMap[T]): void {
         const handler = this.handlers[event];
-        console.log(data)
         if (!handler) return;
 
         try {

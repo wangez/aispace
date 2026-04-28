@@ -5,7 +5,7 @@
             <span>开启新对话</span>
         </div>
         <div id="conversationsWapper">
-            <Conversations :active="activeKey" @change="activeChange" :items="timeBasedItems" groupable
+           <Conversations :active="activeHistory" @change="activeChange" :items="timeBasedItems" groupable
                 :label-max-width="200" :show-tooltip="false" row-key="id"></Conversations>
         </div>
         <div class="leftBtn" @click="router.push('/meta')">
@@ -21,7 +21,6 @@
 
 <script setup lang="ts">
 // ---- 引用依赖 ----
-import { computed } from 'vue'
 import { Conversations } from 'vue-element-plus-x';
 import { useRouter } from 'vue-router'
 // ---- 文件引用 ----
@@ -29,17 +28,9 @@ import type { History } from '@/types/res.d.ts';
 // ---- 声明入参、事件 ----
 const props = defineProps(['activeHistory', 'timeBasedItems'])
 const emits = defineEmits(['activeChange', 'goNew'])
-// ---- 计算属性 ----
-const activeKey = computed(() => {
-    if (props.activeHistory) {
-        return props.activeHistory._id
-    } else {
-        return ''
-    }
-})
 // ---- 定义方法 ----
 const router = useRouter()
-const activeChange = (history: History) => emits('activeChange', history)
+const activeChange = (history: History) => emits('activeChange', history._id)
 const loginOut = () => {
     localStorage.removeItem('token')
     router.push('/login')

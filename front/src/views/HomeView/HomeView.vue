@@ -1,12 +1,12 @@
 <template>
     <div id="main">
         <ViewLeft :activeHistory="activeHistory" :timeBasedItems="timeBasedItems"
-            @activeChange="history => activeHistory = history" @goNew="activeHistory = null" />
+           @activeChange="historyId => activeHistory = historyId" @goNew="activeHistory = undefined" />
         <div class="content">
-            <div v-if="activeKey" class="historyTitle"></div>
+           <div v-if="activeHistory" class="historyTitle"></div>
             <div class="bubbleListWapper">
-                <template v-if="activeKey">
-                    <BubbleListWapper :activeKey="activeKey" :activeChatKey="activeChatKey"
+               <template v-if="activeHistory">
+                    <BubbleListWapper :activeKey="activeHistory" :activeChatKey="activeChatKey"
                         :streamAnswer="streamAnswer" />
                 </template>
                 <template v-else>
@@ -38,28 +38,20 @@ const activeChatKey = ref('');
 const streamAnswer = ref('');
 const isLoading = ref(false)
 const timeBasedItems = ref<ConversationItem<{ id: string; label: string }>[]>([]);
-// ---- 计算属性 ----
-const activeKey = computed(() => {
-    if (activeHistory.value) {
-        return activeHistory.value._id
-    } else {
-        return ''
-    }
-})
+
 // ---- 定义方法 ----  按照价格降序展示排名前三的图书列表
-const submitChat = async ({ label, type, addToTemp }: { label: string, type: string, addToTemp: boolean }) => {
+const submitChat = async ({ label }: { label: string }) => {
     isLoading.value = true
-    console.log({ content: label, type, historyId: activeKey.value, addToTemp })
-    console.log(JSON.stringify({ content: label, type, historyId: activeKey.value, addToTemp }))
-    const client = await createChat({ content: label, type, historyId: activeKey.value, addToTemp })
+    const client = await createChat({ content: label, historyId: activeHistory.value })
     client
         .on('meta', (data) => {
-            if (!activeKey.value) {
+            console.log('sse get meta: ', data)
+            if (!activeHistory.value) {
                 // 新建会话 重新拉取会话列表
                 loadHistoryData()
             }
-            if (!activeHistory.value || activeHistory.value._id !== data.history._id) {
-                activeHistory.value = data.history
+            if (!activeHistory.value || activeHistory.value !== data.historyId) {
+                activeHistory.value = data.historyId
             }
             activeChatKey.value = data.chatId
             streamAnswer.value = ''

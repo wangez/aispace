@@ -2,7 +2,7 @@
 const express = require('express')
 const predictWithTrend = require('./chatRouters/predictWithTrend')
 const advancedIntentRecognition = require('./chatRouters/advancedIntentRecognition')
-const { saveChat } = require('../models/Chat')
+const { saveChat } = require('../models/SysChat')
 
 
 const router = express.Router()

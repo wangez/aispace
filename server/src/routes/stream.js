@@ -1,5 +1,5 @@
 const express = require('express')
-const StreamChunk = require('../models/Stream.js')
+const StreamChunk = require('../models/stream.js')
 
 const router = express.Router()
 

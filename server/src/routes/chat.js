@@ -47,9 +47,17 @@ router.post('/', async (req, res) => {
     try {
         const result = await advancedIntentRecognition(req.body.content)
 
+        let fullContent = ''
+        let fullReasoning = ''
         if (result.intent === 'predict_with_trend') {
-            predictWithTrend(res, req.body.content)
+            let full = await predictWithTrend(res, req.body.content)
+            fullContent = full.fullContent
+            fullReasoning = full.fullReasoning
         }
+        aiChat.status = 'completed'
+        aiChat.content = fullContent
+        aiChat.reasoning = fullReasoning
+        await aiChat.save()
         // 发送结束标记
         res.write(`data: [DONE]\n\n`);
         res.end();

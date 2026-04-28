@@ -218,23 +218,28 @@ async function runAgent(res, userQuestion, saveMsg) {
             { messages: [{ role: "user", content: userQuestion }] },
             { streamMode: "messages" }
         );
-
+        let fullContent = ''
+        let fullReasoning = ''
         for await (const chunk of stream) {
             try {
                 // chunk 是 [AIMessageChunk] 格式
                 const messageChunk = chunk[0];
 
                 // 跳过工具调用相关信息（如果你也想展示工具调用，可单独处理）
-                if (messageChunk.tool_call_id || messageChunk.usage_metadata) {
+                if (messageChunk.tool_call_id) {
+                    fullReasoning += '<\br>'
+                    writeSSE(res, 'delta', { reasoning: '<\br>' })
+                    continue;
+                }
+                if (messageChunk.usage_metadata) {
                     continue;
                 }
 
                 // 1. 处理推理内容（思考过程）
                 const reasoning = messageChunk.additional_kwargs?.reasoning_content;
                 if (reasoning) {
-                    // 发送思考过程事件
-                    // writeSSE(res, 'delta', { content: reasoning })
-                    // process.stdout.write(reasoning);
+                    fullReasoning += reasoning
+                    writeSSE(res, 'delta', { reasoning })
                 }
 
                 // 2. 处理正式回答内容（支持 contentBlocks 或 content）
@@ -247,17 +252,17 @@ async function runAgent(res, userQuestion, saveMsg) {
                 }
 
                 if (textContent) {
-                    process.stdout.write(textContent);
-                    writeSSE(res, 'delta', { content: reasoning })
+                    fullContent += textContent
+                    writeSSE(res, 'delta', { content: textContent })
                 }
             } catch (e) {
                 console.log(e)
             }
         }
-
-        // 发送完成事件
-        res.write(`event: done\n`);
-        res.write(`data: [DONE]\n\n`);
+        return {
+            fullReasoning,
+            fullContent
+        }
     } catch (error) {
         console.error("Agent运行出错:", error);
         res.write(`event: error\n`);

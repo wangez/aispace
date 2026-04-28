@@ -7,7 +7,7 @@
             <div class="bubbleListWapper">
                <template v-if="activeHistory">
                     <BubbleListWapper :activeKey="activeHistory" :activeChatKey="activeChatKey"
-                        :streamAnswer="streamAnswer" />
+                       :streamAnswer="streamAnswer" :streamReasoning="streamReasoning" />
                 </template>
                 <template v-else>
                     <div class="">
@@ -22,7 +22,7 @@
 
 <script setup lang="ts">
 // ---- 引用依赖 ----
-import { ref, onBeforeMount, computed } from 'vue'
+import { ref, onBeforeMount } from 'vue'
 import type { ConversationItem } from 'vue-element-plus-x/types/Conversations';
 // ---- 文件引用 ----
 import { getAll } from '@/api/history'
@@ -36,6 +36,7 @@ import SenderWapper from './SenderWapper.vue'
 const activeHistory = ref()
 const activeChatKey = ref('');
 const streamAnswer = ref('');
+const streamReasoning = ref('');
 const isLoading = ref(false)
 const timeBasedItems = ref<ConversationItem<{ id: string; label: string }>[]>([]);
 
@@ -59,7 +60,14 @@ const submitChat = async ({ label }: { label: string }) => {
         .on('delta', (data) => {
             console.log('接收到：', data)
             // 流式传输回答 封装方法中已经拼装好了
-            streamAnswer.value = (streamAnswer.value + data.content)
+            let { content, reasoning } = data
+            if (content) {
+                streamAnswer.value = (streamAnswer.value + content)
+            }
+            if (reasoning) {
+                streamReasoning.value = (streamReasoning.value + reasoning)
+            }
+
         })
         .on('done', () => {
             isLoading.value = false

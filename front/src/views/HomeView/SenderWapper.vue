@@ -1,19 +1,19 @@
 <template>
     <div class="senderWapper">
-        <el-radio-group v-model="type" style="margin-bottom: 30px">
+       <!-- <el-radio-group v-model="type" style="margin-bottom: 30px">
             <el-radio-button value="默认">默认</el-radio-button>
             <el-radio-button value="聊天">聊天</el-radio-button>
             <el-radio-button value="查询业务数据">查询业务数据</el-radio-button>
-        </el-radio-group>
+      </el-radio-group> -->
         <Sender ref="senderRef" v-model="senderValue" :loading="props.loading" @submit="handleSubmit" variant="updown"
             :auto-size="{ minRows: 2, maxRows: 5 }" clearable allow-speech :placeholder="placeholder">
-            <template #prefix>
+           <!-- <template #prefix>
                 <div class="btnWapper">
                     <div :class="{ addToTemp }" class="btn" @click="addToTemp = !addToTemp">
                         <span>添加问题到模板库</span>
                     </div>
                 </div>
-            </template>
+           </template> -->
         </Sender>
     </div>
 </template>

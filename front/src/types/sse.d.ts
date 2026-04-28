@@ -15,7 +15,8 @@ export interface MetaEventData {
 
 // Delta 事件数据结构
 export interface DeltaEventData {
-  content: string;
+  content: string | undefined;
+  reasoning: string | undefined;
 }
 
 // Done 事件数据结构

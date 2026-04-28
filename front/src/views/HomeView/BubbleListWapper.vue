@@ -1,5 +1,18 @@
 <template>
-    <BubbleList :list="list" max-height="100%" style="text-align: left;" />
+   <BubbleList :list="list" max-height="100%" style="text-align: left;">
+        <template #header="{ item }">
+            <div v-if="item.reasoning && item.reasoning.length" class="reasoning-wrapper">
+                <div class="reasoning-head">已思考</div>
+                <div class="reasoning">
+                    <div class="reasoning-point"></div>
+                    <div class="reasoning-line"></div>
+                    <div class="reasoning-content">
+                        <p v-for="(text, index) in item.reasoning" :key="index">{{ text }}</p>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </BubbleList>
 </template>
 
 <script setup lang="ts">
@@ -12,6 +25,7 @@ import { getAll } from '@/api/chat'
 // ---- 声明ts类型、接口 ----
 type listType = BubbleListItemProps & {
     key: number;
+    reasoning: string[],
     role: 'user' | 'assistant';
 };
 interface Common {
@@ -27,7 +41,8 @@ interface SelfCommon {
     isMarkdown: boolean;
 }
 interface ResItem {
-    content: string,
+    content: string | undefined,
+    reasoning: string,
     historyId: string,
     order: number,
     role: "user" | "assistant",
@@ -52,7 +67,7 @@ const userCommon: SelfCommon = {
     isMarkdown: false
 }
 // ---- 声明入参 ----
-const props = defineProps(['activeKey', 'streamAnswer', 'activeChatKey'])
+const props = defineProps(['activeKey', 'streamAnswer', 'streamReasoning', 'activeChatKey'])
 // ---- 声明响应式变量 ----
 const list = ref<BubbleListProps<listType>['list']>([])
 // ---- 定义方法 ----
@@ -60,11 +75,12 @@ const loadData = async () => {
     let test = await getAll(props.activeKey)
     let reslist: ResItem[] = test.data.data
     list.value = reslist.map((item, index) => {
-        let { role, content } = item
+        let { role, content, reasoning = '' } = item
         return {
             key: index + 1, // 唯一标识
             role, // user | assistant 自行更据模型定义
             content, // 消息内容 流式接受的时候，只需要改这个值即可
+            reasoning: reasoning ? reasoning.split('<\br>') : [],
             ...common,
             ...(role === 'assistant' ? aiCommon : userCommon)
         }
@@ -90,7 +106,82 @@ watch(
         list.value[list.value.length - 1].content = content
     }
 )
+watch(
+    () => props.streamReasoning,
+    reasoning => {
+        console.log(reasoning, reasoning.split('<\br>'))
+        list.value[list.value.length - 1].reasoning = reasoning.split('<\br>')
+    }
+)
 </script>
+
+<style scoped lang="less">
+::v-deep(.el-bubble-list) {
+    .reasoning-wrapper {
+        margin-bottom: 10px;
+        position: relative;
+
+        .reasoning-head {
+            width: 100%;
+            height: 38px;
+            max-height: 38px;
+            cursor: pointer;
+            pointer-events: all;
+            top: 0px;
+            z-index: 7;
+            align-items: center;
+            margin-bottom: 2px;
+            display: flex;
+            position: sticky;
+            background: #fff;
+        }
+
+        .reasoning {
+            margin: 0;
+            padding: 5px 0 0 22px;
+            position: relative;
+
+            .reasoning-point {
+                width: 16px;
+                height: 16px;
+                color: #3964fe;
+                user-select: none;
+                position: absolute;
+                top: 9px;
+                left: 0;
+                justify-content: center;
+                align-items: center;
+                display: inline-flex;
+
+                &::after {
+                    content: "";
+                    background: #3964fe;
+                    border-radius: 50%;
+                    width: 5px;
+                    height: 5px;
+                }
+            }
+
+            .reasoning-line {
+                border-left: 1px solid #e1e5ea;
+                height: calc(100% - 32px);
+                position: absolute;
+                top: 31px;
+                left: 7.5px;
+            }
+
+            .reasoning-content {
+                font: 14px/24px "quote-cjk-patch", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+                color: #61666b;
+
+                p {
+                    margin: 0 0 12px 0;
+                }
+            }
+        }
+    }
+}
+</style>
 
 <style scoped lang="less">
 ::v-deep(.el-bubble-list) {
@@ -113,5 +204,6 @@ watch(
             box-shadow: none;
         }
     }
+    
 }
 </style>

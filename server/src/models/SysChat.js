@@ -9,6 +9,9 @@ const chatSchema = new mongoose.Schema(
         content: {
             type: String,
         },
+        reasoning: {
+            type: String,
+        },
         order: {
             type: Number,
             required: true,

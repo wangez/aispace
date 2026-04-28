@@ -76,7 +76,6 @@ router.post('/', async (req, res) => {
 // 获取指定会话的对话记录
 router.get('/:historyId', async (req, res) => {
     try {
-        console.log(req.params.historyId)
         const chats = await getChatByHistory(req.params.historyId)
         res.json({ success: true, data: chats })
     } catch (error) {

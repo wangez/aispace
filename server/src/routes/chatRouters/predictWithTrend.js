@@ -40,7 +40,6 @@ const forecastByTrendTool = tool(
         currentData,
         totalPointsPerPeriod,
     }) => {
-        console.log('forecastByTrendTool: ', historicalData, currentData, totalPointsPerPeriod)
         // ----- 1. 参数校验与预处理 -----
         if (!Array.isArray(historicalData) || historicalData.length < 2) {
             return "错误：历史周期数据至少需要2个数据点才能计算趋势。";
@@ -104,13 +103,10 @@ const forecastByTrendTool = tool(
 // 工具2: 获取台区或用户某一年的用电量
 const get12MounthUsage = tool(
     async ({ type, year, name }) => {
-        console.log('get12MounthUsage: ', type, year, name)
         let result = []   // 城西台区A
         if (type === '台区') {
             const find = await Area.find({ name })
-            console.log(find)
             if (find && find.length) {
-                console.log('台区id', find[0]._id)
                 result = await Usage.aggregate([
                     {
                         $lookup: {
@@ -135,7 +131,6 @@ const get12MounthUsage = tool(
                     },
                     { $sort: { _id: 1 } }
                 ]);
-                console.log(result)
             } else {
                 return `没有找到名为${name}的台区数据`
             }

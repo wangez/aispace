@@ -16,7 +16,6 @@ const Sales = mongoose.model("Sales", salesSchema);
 // 工具1: 查询某区域、某月内销售额最高的 N 个产品
 const queryTopProducts = tool(
     async ({ region, year, month, limit }) => {
-        const time = Date.now()
         const startDate = new Date(year, month - 1, 1);
         const endDate = new Date(year, month, 0);
 
@@ -38,10 +37,6 @@ const queryTopProducts = tool(
             { $limit: limit },
         ]);
 
-        console.log(`工具 queryTopProducts 花费时间${Date.now() - time}`)
-        console.log(results.length > 0
-            ? JSON.stringify(results)
-            : `在${year}年${month}月的${region}未找到销售数据。`)
         return results.length > 0
             ? JSON.stringify(results)
             : `在${year}年${month}月的${region}未找到销售数据。`;
@@ -62,7 +57,6 @@ const queryTopProducts = tool(
 // 工具2: 获取特定产品在指定时间段的销售额
 const getProductSales = tool(
     async ({ productId, year, month }) => {
-        const time = Date.now()
         const startDate = new Date(year, month - 1, 1);
         const endDate = new Date(year, month, 0);
 
@@ -81,7 +75,6 @@ const getProductSales = tool(
                 },
             },
         ]);
-        console.log(`工具 getProductSales 花费时间${Date.now() - time}`)
         return results.length > 0
             ? JSON.stringify(results[0])
             : `产品${productId}在${year}年${month}月无销售记录。`;

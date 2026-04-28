@@ -21,7 +21,6 @@ router.get('/', async (req, res) => {
 
 router.get('/:timeFleg', async (req, res) => {
     try {
-        console.log(req.params.timeFleg)
         const { timeFleg } = req.params
         const data = await StreamChunk.find({ timeFleg });
         res.json({ data })

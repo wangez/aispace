@@ -49,7 +49,7 @@ async function callLLMForIntent(query) {
     `;
 
     const response = await dsChat.invoke([{ role: 'user', content: prompt }]);
-    console.log(response.content)
+
     // 解析大模型返回的JSON结果
     const result = JSON.parse(response.content);
     console.log('LLM识别结果及理由:', result.reasoning);
@@ -65,7 +65,6 @@ async function advancedIntentRecognition(userQuery) {
     }
 
     // 第二步：如果规则匹配不了，再调用大模型 API 作为“智慧兜底”
-    console.log('复杂语义，交给LLM兜底处理...');
     const llmResult = await callLLMForIntent(userQuery);
     return llmResult;
 }

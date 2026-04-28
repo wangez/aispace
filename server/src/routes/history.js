@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const History = require('../models/History');
+const History = require('../models/SysHistory');
 
 // 获取对话列表
 router.get('/', async (req, res) => {

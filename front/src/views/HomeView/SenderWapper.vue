@@ -39,7 +39,7 @@ const typeDict = {
 type TabKey = keyof typeof placeholderDict; // "默认" | "聊天" | "查询业务数据"
 // ---- 声明响应式变量 ----
 const senderRef = ref();
-const senderValue = ref('');
+const senderValue = ref('今年是2026年，根据去年的趋势，帮我算算城西台区A今年7月用多少电');
 const type = ref<TabKey>('默认')
 const placeholder = computed(() => placeholderDict[type.value])
 const addToTemp = ref<boolean>(false)

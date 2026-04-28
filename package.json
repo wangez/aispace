@@ -16,8 +16,8 @@
   "main": "index.js",
   "scripts": {
     "init": "cd server && node src/init",
-    "chroma": "cd server/chroma && chroma-windows.exe run --path getting-started",
     "node": "cd server && npm run dev",
-    "web": "cd web && npm run dev"
+    "front": "cd front && npm run dev",
+    "reset": "cd server && node mongodb/init"
   }
 }

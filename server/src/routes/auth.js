@@ -1,8 +1,8 @@
 const express = require('express');
 const { v4: uuidv4 } = require('uuid');
-const User = require('../models/User');
-const Session = require('../models/Session');
-const authMiddleware = require('../middleware/auth');
+const User = require('../models/SysUser');
+const Session = require('../models/SysSession');
+const authMiddleware = require('../tools/authMiddleware');
 const router = express.Router();
 
 // 注册用户

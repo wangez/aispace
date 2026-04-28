@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView/HomeView.vue'
 import LoginPage from '../views/LoginPage.vue'
-import AiSdk from '../views/AiSdk.vue'
 import SetKey from '../views/SetKey.vue'
 import SteamChunks from '../views/SteamChunks.vue'
 import AgentMessage from '../views/AgentMessage.vue'
@@ -18,11 +17,6 @@ const routes: Array<RouteRecordRaw> = [
         path: '/login',
         name: 'login',
         component: LoginPage
-    },
-    {
-        path: '/sdk',
-        name: 'sdk',
-        component: AiSdk
     },
     {
         path: '/set',

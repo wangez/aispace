@@ -13,8 +13,9 @@ ${text.join(`
     const prompt = `
 你是一个电力服务意图识别专家。请根据用户的输入，分析其意图并提取关键信息。如果有历史输入，按需结合历史输入分析。意图包括：
 - predict_with_trend（基于趋势的预测）
+- predict_with_trend_chart（基于趋势的预测，并通过图表展示）
 - simple_predict（简单预测，不强调依据）
-- data_display（查询并展示数据）
+- data_display_chart（查询并展示数据，并通过图表展示）
 - supplement（补充、完善、澄清、纠正、追问）
 - other（其他）
 
@@ -39,7 +40,7 @@ ${historyText}
     }
     if (supplement) {
         console.log('判断为supplement后加载历史对话再次判断', result)
-    } else if (result.intent === 'supplement') {
+    } else if (result.intent === 'supplement' && messages.length) {
         return await callLLMForIntent(query, messages, true)
     }
 

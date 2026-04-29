@@ -1,12 +1,15 @@
 // 引用依赖
 const express = require('express')
-const predictWithTrend = require('./chatRouters/predictWithTrend')
-const queryData = require('./chatRouters/queryData')
-const advancedIntentRecognition = require('./chatRouters/advancedIntentRecognition')
 const { getChatByHistory, saveChat } = require('../models/SysChat')
 const History = require('../models/SysHistory')
 const Counter = require('../models/SysCounter')
 const writeSSE = require('../tools/writeSSE')
+
+const advancedIntentRecognition = require('./tools/advancedIntentRecognition')
+const forecastByTrendTool = require('./tools/forecastByTrendTool')
+const get12MounthUsage = require('./tools/get12MounthUsage')
+const createChartOptions = require('./tools/createChartOptions')
+const createRunAgent = require('./tools/createRunAgent')
 
 const router = express.Router()
 
@@ -60,15 +63,19 @@ router.post('/', async (req, res) => {
         if (intent === 'supplement') {
             intent = result.supplemented
         }
+        let agent
         if (intent === 'predict_with_trend') {
-            let full = await predictWithTrend(res, req.body.content, messages)
-            fullContent = full.fullContent
-            fullReasoning = full.fullReasoning
+            agent = createRunAgent([forecastByTrendTool, get12MounthUsage])
         } else if (intent === 'data_display') {
-            let full = await queryData(res, req.body.content, messages)
-            fullContent = full.fullContent
-            fullReasoning = full.fullReasoning
+            agent = createRunAgent([get12MounthUsage])
+        } else if (intent === 'predict_with_trend_chart') {
+            agent = createRunAgent([forecastByTrendTool, get12MounthUsage, createChartOptions])
+        } else if (intent === 'data_display_chart') {
+            agent = createRunAgent([get12MounthUsage, createChartOptions])
         }
+        let full = await agent(res, req.body.content, messages)
+        fullContent = full.fullContent
+        fullReasoning = full.fullReasoning
         aiChat.status = 'completed'
         aiChat.content = fullContent
         aiChat.reasoning = fullReasoning

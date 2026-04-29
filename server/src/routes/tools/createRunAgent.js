@@ -1,15 +1,16 @@
 const { createAgent } = require("langchain")
 const agentMiddleware = require('./agentMiddleware.js')
-const writeSSE = require('../../tools/writeSSE')
-const { dsReasonerZero } = require('../../config/LLMs')
+const writeSSE = require('../../tools/writeSSE.js')
+const { dsReasonerZero } = require('../../config/LLMs.js')
 
 const enter = `
 `
-const createSystemPrompt = list => `你是一个数据分析助手，负责回答业务问题。
+const createSystemPrompt = list => `你是一个数据分析助手，负责回答业务问题。全程使用中文思考和交流。
 你可以使用以下工具：
 ${list.map(item => `- ${item.name}: ${item.shotDes || item.description}`).join(enter)}
 请严格遵循ReAct模式：思考(Thought) -> 行动(Action) -> 观察(Observation) -> 重复，直到能给出最终答案。
 最终答案必须基于工具返回的数据。
+当需要图表展示时，返回给用户echarts图表配置。
 如果遇到错误或数据不足，请如实告知用户。`
 
 function createRunAgent(tools) {

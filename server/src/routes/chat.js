@@ -1,6 +1,7 @@
 // 引用依赖
 const express = require('express')
 const predictWithTrend = require('./chatRouters/predictWithTrend')
+const queryData = require('./chatRouters/queryData')
 const advancedIntentRecognition = require('./chatRouters/advancedIntentRecognition')
 const { getChatByHistory, saveChat } = require('../models/SysChat')
 const History = require('../models/SysHistory')
@@ -29,28 +30,42 @@ async function initialize(req) {
     const { content } = req.body
     let historyId = req.body.historyId
     const userId = req.user.id
-    if (!historyId) {
+    let messages = []
+    if (historyId) {
+        const historyList = await getChatByHistory(historyId)
+        messages = historyList.map(item => {
+            return { role: item.role, content: item.content }
+        })
+    } else {
         let history = new History({ label: content, userId })
         await history.save()
         historyId = history._id
     }
     const order = await getNextSequenceValue(historyId)
-    return { content, historyId, order, userId }
+    return { content, historyId, order, userId, messages }
 }
 
 router.post('/', async (req, res) => {
     setHeader(res)
-    const { content, historyId, order, userId } = await initialize(req)
+    const { content, historyId, order, userId, messages } = await initialize(req)
     const aiChat = await saveChat(content, historyId, order)
     // 发送元数据
     writeSSE(res, 'meta', { historyId, chatId: aiChat._id })
     try {
-        const result = await advancedIntentRecognition(req.body.content)
+        const result = await advancedIntentRecognition(req.body.content, messages)
 
         let fullContent = ''
         let fullReasoning = ''
-        if (result.intent === 'predict_with_trend') {
-            let full = await predictWithTrend(res, req.body.content)
+        let intent = result.intent
+        if (intent === 'supplement') {
+            intent = result.supplemented
+        }
+        if (intent === 'predict_with_trend') {
+            let full = await predictWithTrend(res, req.body.content, messages)
+            fullContent = full.fullContent
+            fullReasoning = full.fullReasoning
+        } else if (intent === 'data_display') {
+            let full = await queryData(res, req.body.content, messages)
             fullContent = full.fullContent
             fullReasoning = full.fullReasoning
         }
@@ -59,8 +74,7 @@ router.post('/', async (req, res) => {
         aiChat.reasoning = fullReasoning
         await aiChat.save()
         // 发送结束标记
-        res.write(`data: [DONE]\n\n`);
-        res.end();
+        writeSSE(res, 'done', { status: 'success' })
     } catch (error) {
         console.error('API处理出错:', error);
         // 若流尚未开始，返回常规 JSON 错误

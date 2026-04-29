@@ -109,7 +109,6 @@ watch(
 watch(
     () => props.streamReasoning,
     reasoning => {
-        console.log(reasoning, reasoning.split('<\br>'))
         list.value[list.value.length - 1].reasoning = reasoning.split('<\br>')
     }
 )

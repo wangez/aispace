@@ -24,8 +24,6 @@ async function doDrop() {
 }
 doDrop()
     .then(() => {
-        console.log('数据导入完成，关闭连接...');
         return mongoose.disconnect();      // 关闭默认连接
     })
     .catch(err => console.error(err))
-// .finally(() => process.exit(0));      // 可选：强制退出

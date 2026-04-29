@@ -46,7 +46,6 @@ const submitChat = async ({ label }: { label: string }) => {
     const client = await createChat({ content: label, historyId: activeHistory.value })
     client
         .on('meta', (data) => {
-            console.log('sse get meta: ', data)
             if (!activeHistory.value) {
                 // 新建会话 重新拉取会话列表
                 loadHistoryData()
@@ -58,7 +57,6 @@ const submitChat = async ({ label }: { label: string }) => {
             streamAnswer.value = ''
         })
         .on('delta', (data) => {
-            console.log('接收到：', data)
             // 流式传输回答 封装方法中已经拼装好了
             let { content, reasoning } = data
             if (content) {

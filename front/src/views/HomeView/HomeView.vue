@@ -42,22 +42,28 @@ const timeBasedItems = ref<ConversationItem<{ id: string; label: string }>[]>([]
 
 // ---- 定义方法 ----  按照价格降序展示排名前三的图书列表
 const submitChat = async ({ label }: { label: string }) => {
+    let historyId = activeHistory.value
     isLoading.value = true
-    const client = await createChat({ content: label, historyId: activeHistory.value })
+    const client = await createChat({ content: label, historyId })
     client
         .on('meta', (data) => {
-            if (!activeHistory.value) {
+            if (!historyId) {
                 // 新建会话 重新拉取会话列表
                 loadHistoryData()
             }
-            if (!activeHistory.value || activeHistory.value !== data.historyId) {
+            if (!historyId || historyId !== data.historyId) {
+                historyId = data.historyId
                 activeHistory.value = data.historyId
             }
             activeChatKey.value = data.chatId
             streamAnswer.value = ''
         })
         .on('delta', (data) => {
-            // 流式传输回答 封装方法中已经拼装好了
+            if (historyId !== activeHistory.value) {
+                streamAnswer.value = ''
+                streamReasoning.value = ''
+                return
+            }
             let { content, reasoning } = data
             if (content) {
                 streamAnswer.value = (streamAnswer.value + content)
@@ -65,7 +71,6 @@ const submitChat = async ({ label }: { label: string }) => {
             if (reasoning) {
                 streamReasoning.value = (streamReasoning.value + reasoning)
             }
-
         })
         .on('done', () => {
             isLoading.value = false

@@ -1,8 +1,7 @@
 const { z } = require("zod")
 const { tool } = require("langchain")
-const { Usage, User, Area } = require('../../models/busModel')
 
-// 工具: 获取台区或用户某一年的用电量
+// 工具: 
 const createChartOptions = tool(
     async ({ chartName, xAxisData, values, units }) => {
         let json = JSON.stringify({
@@ -25,7 +24,7 @@ const createChartOptions = tool(
                 }
             ]
         })
-        return '@@@echarts' + json + '@@@';
+        return '```echarts' + json + '```';
     },
     {
         name: "create_chart_options",

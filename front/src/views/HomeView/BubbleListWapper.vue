@@ -123,8 +123,8 @@ watch(
 let chartInstance = {}
 function splitByEchartsMarker(text: string): contentItem[] {
     // [\s\S]*? 表示最短匹配任意字符（包括换行）
-    let list = text.split(/(@@@echarts[\s\S]*?@@@)/).filter(Boolean).map((item, index) => {
-        let match = item.match(/@@@echarts([\s\S]*)@@@/)
+    let list = text.split(/(```echarts[\s\S]*?```)/).filter(Boolean).map((item, index) => {
+        let match = item.match(/```echarts([\s\S]*)```/)
         if (match) {
             return {
                 type: 'echarts',
@@ -140,7 +140,7 @@ function splitByEchartsMarker(text: string): contentItem[] {
     });
     if (list.length) {
         let last = list[list.length - 1]
-        if (last.content?.indexOf('@@@echarts') === 0) {
+        if (last.content?.indexOf('```echarts') === 0) {
             list.splice(list.length - 1, 1)
         }
     }

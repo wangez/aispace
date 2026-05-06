@@ -4,6 +4,7 @@ const User = require('../models/SysUser');
 const Session = require('../models/SysSession');
 const authMiddleware = require('../tools/authMiddleware');
 const router = express.Router();
+const init = require('../../mongodb/index')
 
 // 注册用户
 router.post('/register', async (req, res) => {
@@ -41,12 +42,24 @@ router.post('/login', async (req, res) => {
         const { username, password } = req.body;
 
         // 查找用户
-        const user = await User.findOne({ username });
+        let user = await User.findOne({ username });
         if (!user) {
-            return res.status(401).json({
-                success: false,
-                message: 'Invalid credentials'
-            });
+            const all = await User.find({})
+            if (all.length) {
+                return res.status(401).json({
+                    success: false,
+                    message: 'Invalid credentials'
+                });
+            } else {
+                await init()
+                user = await User.findOne({ username });
+                if (!user) {
+                    return res.status(401).json({
+                        success: false,
+                        message: 'Invalid credentials'
+                    });
+                }
+            }
         }
 
         // 验证密码

@@ -26,7 +26,7 @@ import { useRouter } from 'vue-router'
 // ---- 文件引用 ----
 import type { History } from '@/types/res.d.ts';
 // ---- 声明入参、事件 ----
-const props = defineProps(['activeHistory', 'timeBasedItems'])
+defineProps(['activeHistory', 'timeBasedItems'])
 const emits = defineEmits(['activeChange', 'goNew'])
 // ---- 定义方法 ----
 const router = useRouter()

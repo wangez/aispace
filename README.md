@@ -69,6 +69,10 @@ deepseek-chat用来快速意图分析，实际对话用deepseek-reasoner，text-
 
 #### 2. chromadb
 
+##### 已弃用
+
+暂时完全用模型快速分析用户意图
+
 ##### 用途
 
 存储向量数据，支持语义相似度检索：

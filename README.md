@@ -16,7 +16,6 @@ Releases 中有打包好的docker镜像，可直接运行测试
 
 ## 启动
 
-- **启动chroma服务**：`npm run chroma`
 - **启动node服务**：`npm run node`
 - **启动前端**：`npm run front`
 
@@ -26,7 +25,6 @@ Releases 中有打包好的docker镜像，可直接运行测试
 graph TB
     subgraph 数据存储
         A[mongodb]
-        B[chromadb]
     end
     subgraph 服务端
         C[node.js+express]

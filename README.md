@@ -4,6 +4,10 @@
 
 ---
 
+## docker镜像
+
+Releases 中有打包好的docker镜像，可直接运行测试
+
 ## 初始化
 
 - server、web均需安装依赖

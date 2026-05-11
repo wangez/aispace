@@ -1,7 +1,7 @@
 {
   "name": "aispace",
   "version": "1.0.0",
-  "description": "在 AI 能力日益强大的今天，学习新技术的重心应从语法细节转向系统架构、技术选型与设计决策。核心问题不再是“代码怎么写”，而是“为什么这么做”。  \r > 例如：即便你从未写过 Python，只需明确目标，即可让 AI 生成初始代码，再由人工审查与调整；遇到问题，也可随时交由 AI 辅助诊断。  \r > 本文记录了一个渐进式的搭建过程——从最小可行对话系统起步，逐步集成 LangChain 的各项能力，在实践中体悟用户意图分类、RAG、向量检索、短期/长期记忆等概念的真实含义。文中穿插的个人提问示例，亦可供参考。",
+  "description": "在 AI 能力日益强大的今天，学习新技术的重心应从语法细节转向系统架构、技术选型与设计决策。核心问题不再是“代码怎么写”，而是“为什么这么做”。",
   "homepage": "https://github.com/wangez/aispace#readme",
   "bugs": {
     "url": "https://github.com/wangez/aispace/issues"
@@ -18,6 +18,12 @@
     "init": "cd server && node src/init",
     "node": "cd server && npm run dev",
     "front": "cd front && npm run dev",
-    "reset": "cd server && node mongodb/init"
+    "reset": "cd server && node mongodb/init",
+    "docker:build": "docker build -t wnz_agent .",
+    "docker:run": "docker run -d -p 3000:3000 -p 8080:8080 -p 27017:27017 --name wnz_agent_wapper wnz_agent",
+    "docker:rm": "docker rm -f wnz_agent_wapper",
+    "docker:_commit": "docker commit wnz_agent_wapper wnz_agent_with_data:latest",
+    "docker:_save": "docker save wnz_agent_with_data:latest | gzip > wnz_agent_with_data.tar.gz",
+    "docker:save": "npm run docker:_commit && npm run docker:_save"
   }
 }

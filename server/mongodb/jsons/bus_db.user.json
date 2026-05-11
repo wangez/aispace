@@ -1,0 +1,420 @@
+[{
+  "_id": "u1",
+  "name": "张伟",
+  "address": "城东街道1号101室",
+  "area_id": "a1",
+  "manager_id": "m1"
+},
+{
+  "_id": "u2",
+  "name": "李娜",
+  "address": "城东街道1号102室",
+  "area_id": "a1",
+  "manager_id": "m1"
+},
+{
+  "_id": "u3",
+  "name": "王磊",
+  "address": "城东街道1号103室",
+  "area_id": "a1",
+  "manager_id": "m1"
+},
+{
+  "_id": "u4",
+  "name": "赵敏",
+  "address": "城东街道1号201室",
+  "area_id": "a1",
+  "manager_id": "m1"
+},
+{
+  "_id": "u5",
+  "name": "陈静",
+  "address": "城东街道1号202室",
+  "area_id": "a1",
+  "manager_id": "m1"
+},
+{
+  "_id": "u6",
+  "name": "刘洋",
+  "address": "城西街道5号101室",
+  "area_id": "a2",
+  "manager_id": "m2"
+},
+{
+  "_id": "u7",
+  "name": "杨帆",
+  "address": "城西街道5号102室",
+  "area_id": "a2",
+  "manager_id": "m2"
+},
+{
+  "_id": "u8",
+  "name": "黄丽",
+  "address": "城西街道5号103室",
+  "area_id": "a2",
+  "manager_id": "m2"
+},
+{
+  "_id": "u9",
+  "name": "周强",
+  "address": "城西街道5号201室",
+  "area_id": "a2",
+  "manager_id": "m2"
+},
+{
+  "_id": "u10",
+  "name": "吴芳",
+  "address": "城西街道5号202室",
+  "area_id": "a2",
+  "manager_id": "m2"
+},
+{
+  "_id": "u11",
+  "name": "徐明",
+  "address": "城西街道8号101室",
+  "area_id": "a3",
+  "manager_id": "m2"
+},
+{
+  "_id": "u12",
+  "name": "孙鹏",
+  "address": "城西街道8号102室",
+  "area_id": "a3",
+  "manager_id": "m2"
+},
+{
+  "_id": "u13",
+  "name": "马玲",
+  "address": "城西街道8号103室",
+  "area_id": "a3",
+  "manager_id": "m2"
+},
+{
+  "_id": "u14",
+  "name": "胡兵",
+  "address": "城西街道8号201室",
+  "area_id": "a3",
+  "manager_id": "m2"
+},
+{
+  "_id": "u15",
+  "name": "朱红",
+  "address": "城西街道8号202室",
+  "area_id": "a3",
+  "manager_id": "m2"
+},
+{
+  "_id": "u16",
+  "name": "郭涛",
+  "address": "城西街道8号301室",
+  "area_id": "a3",
+  "manager_id": "m2"
+},
+{
+  "_id": "u17",
+  "name": "何静",
+  "address": "城南大道10号101室",
+  "area_id": "a4",
+  "manager_id": "m3"
+},
+{
+  "_id": "u18",
+  "name": "高翔",
+  "address": "城南大道10号102室",
+  "area_id": "a4",
+  "manager_id": "m3"
+},
+{
+  "_id": "u19",
+  "name": "林鑫",
+  "address": "城南大道10号103室",
+  "area_id": "a4",
+  "manager_id": "m3"
+},
+{
+  "_id": "u20",
+  "name": "罗娟",
+  "address": "城南大道10号201室",
+  "area_id": "a4",
+  "manager_id": "m3"
+},
+{
+  "_id": "u21",
+  "name": "郑立",
+  "address": "城南大道10号202室",
+  "area_id": "a4",
+  "manager_id": "m3"
+},
+{
+  "_id": "u22",
+  "name": "梁秀",
+  "address": "城南大道10号301室",
+  "area_id": "a4",
+  "manager_id": "m3"
+},
+{
+  "_id": "u23",
+  "name": "谢宇",
+  "address": "城南大道15号101室",
+  "area_id": "a5",
+  "manager_id": "m3"
+},
+{
+  "_id": "u24",
+  "name": "韩冰",
+  "address": "城南大道15号102室",
+  "area_id": "a5",
+  "manager_id": "m3"
+},
+{
+  "_id": "u25",
+  "name": "唐飞",
+  "address": "城南大道15号103室",
+  "area_id": "a5",
+  "manager_id": "m3"
+},
+{
+  "_id": "u26",
+  "name": "冯丽",
+  "address": "城南大道15号201室",
+  "area_id": "a5",
+  "manager_id": "m3"
+},
+{
+  "_id": "u27",
+  "name": "董力",
+  "address": "城南大道15号202室",
+  "area_id": "a5",
+  "manager_id": "m3"
+},
+{
+  "_id": "u28",
+  "name": "程浩",
+  "address": "城北工业园2号101室",
+  "area_id": "a6",
+  "manager_id": "m4"
+},
+{
+  "_id": "u29",
+  "name": "曹洁",
+  "address": "城北工业园2号102室",
+  "area_id": "a6",
+  "manager_id": "m4"
+},
+{
+  "_id": "u30",
+  "name": "袁浩",
+  "address": "城北工业园2号103室",
+  "area_id": "a6",
+  "manager_id": "m4"
+},
+{
+  "_id": "u31",
+  "name": "邓超",
+  "address": "城北工业园2号201室",
+  "area_id": "a6",
+  "manager_id": "m4"
+},
+{
+  "_id": "u32",
+  "name": "许晴",
+  "address": "城北工业园2号202室",
+  "area_id": "a6",
+  "manager_id": "m4"
+},
+{
+  "_id": "u33",
+  "name": "傅艺",
+  "address": "城北工业园6号101室",
+  "area_id": "a7",
+  "manager_id": "m4"
+},
+{
+  "_id": "u34",
+  "name": "沈逸",
+  "address": "城北工业园6号102室",
+  "area_id": "a7",
+  "manager_id": "m4"
+},
+{
+  "_id": "u35",
+  "name": "曾敏",
+  "address": "城北工业园6号103室",
+  "area_id": "a7",
+  "manager_id": "m4"
+},
+{
+  "_id": "u36",
+  "name": "彭博",
+  "address": "城北工业园6号201室",
+  "area_id": "a7",
+  "manager_id": "m4"
+},
+{
+  "_id": "u37",
+  "name": "吕玲",
+  "address": "城北工业园6号202室",
+  "area_id": "a7",
+  "manager_id": "m4"
+},
+{
+  "_id": "u38",
+  "name": "苏然",
+  "address": "城北工业园6号301室",
+  "area_id": "a7",
+  "manager_id": "m4"
+},
+{
+  "_id": "u39",
+  "name": "蒋涛",
+  "address": "城北工业园9号101室",
+  "area_id": "a8",
+  "manager_id": "m4"
+},
+{
+  "_id": "u40",
+  "name": "蔡琴",
+  "address": "城北工业园9号102室",
+  "area_id": "a8",
+  "manager_id": "m4"
+},
+{
+  "_id": "u41",
+  "name": "贾旭",
+  "address": "城北工业园9号103室",
+  "area_id": "a8",
+  "manager_id": "m4"
+},
+{
+  "_id": "u42",
+  "name": "丁宁",
+  "address": "城北工业园9号201室",
+  "area_id": "a8",
+  "manager_id": "m4"
+},
+{
+  "_id": "u43",
+  "name": "魏民",
+  "address": "城北工业园9号202室",
+  "area_id": "a8",
+  "manager_id": "m4"
+},
+{
+  "_id": "u44",
+  "name": "薛梅",
+  "address": "开发区创新路1号101室",
+  "area_id": "a9",
+  "manager_id": "m5"
+},
+{
+  "_id": "u45",
+  "name": "范伟",
+  "address": "开发区创新路1号102室",
+  "area_id": "a9",
+  "manager_id": "m5"
+},
+{
+  "_id": "u46",
+  "name": "方芳",
+  "address": "开发区创新路1号103室",
+  "area_id": "a9",
+  "manager_id": "m5"
+},
+{
+  "_id": "u47",
+  "name": "石磊",
+  "address": "开发区创新路1号201室",
+  "area_id": "a9",
+  "manager_id": "m5"
+},
+{
+  "_id": "u48",
+  "name": "姚思",
+  "address": "开发区创新路1号202室",
+  "area_id": "a9",
+  "manager_id": "m5"
+},
+{
+  "_id": "u49",
+  "name": "谭耀",
+  "address": "开发区创新路1号301室",
+  "area_id": "a9",
+  "manager_id": "m5"
+},
+{
+  "_id": "u50",
+  "name": "廖静",
+  "address": "开发区创新路5号101室",
+  "area_id": "a10",
+  "manager_id": "m5"
+},
+{
+  "_id": "u51",
+  "name": "邹华",
+  "address": "开发区创新路5号102室",
+  "area_id": "a10",
+  "manager_id": "m5"
+},
+{
+  "_id": "u52",
+  "name": "熊光",
+  "address": "开发区创新路5号103室",
+  "area_id": "a10",
+  "manager_id": "m5"
+},
+{
+  "_id": "u53",
+  "name": "金娜",
+  "address": "开发区创新路5号201室",
+  "area_id": "a10",
+  "manager_id": "m5"
+},
+{
+  "_id": "u54",
+  "name": "陆风",
+  "address": "开发区创新路5号202室",
+  "area_id": "a10",
+  "manager_id": "m5"
+},
+{
+  "_id": "u55",
+  "name": "郝佳",
+  "address": "开发区创新路9号101室",
+  "area_id": "a11",
+  "manager_id": "m5"
+},
+{
+  "_id": "u56",
+  "name": "孔亮",
+  "address": "开发区创新路9号102室",
+  "area_id": "a11",
+  "manager_id": "m5"
+},
+{
+  "_id": "u57",
+  "name": "白雪",
+  "address": "开发区创新路9号103室",
+  "area_id": "a11",
+  "manager_id": "m5"
+},
+{
+  "_id": "u58",
+  "name": "崔健",
+  "address": "开发区创新路9号201室",
+  "area_id": "a11",
+  "manager_id": "m5"
+},
+{
+  "_id": "u59",
+  "name": "康秀",
+  "address": "开发区创新路9号202室",
+  "area_id": "a11",
+  "manager_id": "m5"
+},
+{
+  "_id": "u60",
+  "name": "毛宁",
+  "address": "开发区创新路9号301室",
+  "area_id": "a11",
+  "manager_id": "m5"
+}]

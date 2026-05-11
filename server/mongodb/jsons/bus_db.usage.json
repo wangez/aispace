@@ -1,0 +1,4501 @@
+[
+  {
+  "user_id": "u1",
+  "year_month": "2025-01",
+  "usage": 176
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-02",
+  "usage": 110.5
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-03",
+  "usage": 117.2
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-04",
+  "usage": 188.5
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-05",
+  "usage": 189.7
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-06",
+  "usage": 466.2
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-07",
+  "usage": 313.3
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-08",
+  "usage": 363.2
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-09",
+  "usage": 167.2
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-10",
+  "usage": 485.4
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-11",
+  "usage": 414.2
+},
+{
+  "user_id": "u1",
+  "year_month": "2025-12",
+  "usage": 288.4
+},
+{
+  "user_id": "u1",
+  "year_month": "2026-01",
+  "usage": 311.5
+},
+{
+  "user_id": "u1",
+  "year_month": "2026-02",
+  "usage": 370
+},
+{
+  "user_id": "u1",
+  "year_month": "2026-03",
+  "usage": 392.1
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-01",
+  "usage": 128.8
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-02",
+  "usage": 491.3
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-03",
+  "usage": 283
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-04",
+  "usage": 264.7
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-05",
+  "usage": 157.4
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-06",
+  "usage": 112.5
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-07",
+  "usage": 162.7
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-08",
+  "usage": 258.1
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-09",
+  "usage": 454.3
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-10",
+  "usage": 193
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-11",
+  "usage": 294.6
+},
+{
+  "user_id": "u2",
+  "year_month": "2025-12",
+  "usage": 186.1
+},
+{
+  "user_id": "u2",
+  "year_month": "2026-01",
+  "usage": 111.4
+},
+{
+  "user_id": "u2",
+  "year_month": "2026-02",
+  "usage": 469.9
+},
+{
+  "user_id": "u2",
+  "year_month": "2026-03",
+  "usage": 308.1
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-01",
+  "usage": 374.1
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-02",
+  "usage": 312.3
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-03",
+  "usage": 343.3
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-04",
+  "usage": 171.3
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-05",
+  "usage": 114.6
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-06",
+  "usage": 220.9
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-07",
+  "usage": 334.7
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-08",
+  "usage": 322.7
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-09",
+  "usage": 269.9
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-10",
+  "usage": 435.1
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-11",
+  "usage": 226.9
+},
+{
+  "user_id": "u3",
+  "year_month": "2025-12",
+  "usage": 164.7
+},
+{
+  "user_id": "u3",
+  "year_month": "2026-01",
+  "usage": 242
+},
+{
+  "user_id": "u3",
+  "year_month": "2026-02",
+  "usage": 282.4
+},
+{
+  "user_id": "u3",
+  "year_month": "2026-03",
+  "usage": 311.1
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-01",
+  "usage": 220.7
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-02",
+  "usage": 483.4
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-03",
+  "usage": 322.9
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-04",
+  "usage": 401.1
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-05",
+  "usage": 477.2
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-06",
+  "usage": 397
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-07",
+  "usage": 185.9
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-08",
+  "usage": 106.3
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-09",
+  "usage": 333.5
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-10",
+  "usage": 461.1
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-11",
+  "usage": 334.3
+},
+{
+  "user_id": "u4",
+  "year_month": "2025-12",
+  "usage": 136.5
+},
+{
+  "user_id": "u4",
+  "year_month": "2026-01",
+  "usage": 226.5
+},
+{
+  "user_id": "u4",
+  "year_month": "2026-02",
+  "usage": 259.2
+},
+{
+  "user_id": "u4",
+  "year_month": "2026-03",
+  "usage": 358.4
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-01",
+  "usage": 363.7
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-02",
+  "usage": 299.8
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-03",
+  "usage": 216.1
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-04",
+  "usage": 216.8
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-05",
+  "usage": 349.5
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-06",
+  "usage": 113.1
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-07",
+  "usage": 255
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-08",
+  "usage": 237.8
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-09",
+  "usage": 236.8
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-10",
+  "usage": 157.5
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-11",
+  "usage": 260
+},
+{
+  "user_id": "u5",
+  "year_month": "2025-12",
+  "usage": 414.5
+},
+{
+  "user_id": "u5",
+  "year_month": "2026-01",
+  "usage": 133.1
+},
+{
+  "user_id": "u5",
+  "year_month": "2026-02",
+  "usage": 104.9
+},
+{
+  "user_id": "u5",
+  "year_month": "2026-03",
+  "usage": 187.6
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-01",
+  "usage": 467.5
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-02",
+  "usage": 260.2
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-03",
+  "usage": 294.7
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-04",
+  "usage": 361.8
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-05",
+  "usage": 238.9
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-06",
+  "usage": 135.2
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-07",
+  "usage": 281.4
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-08",
+  "usage": 112.1
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-09",
+  "usage": 184.1
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-10",
+  "usage": 151.2
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-11",
+  "usage": 407.9
+},
+{
+  "user_id": "u6",
+  "year_month": "2025-12",
+  "usage": 408.9
+},
+{
+  "user_id": "u6",
+  "year_month": "2026-01",
+  "usage": 166.3
+},
+{
+  "user_id": "u6",
+  "year_month": "2026-02",
+  "usage": 345.3
+},
+{
+  "user_id": "u6",
+  "year_month": "2026-03",
+  "usage": 495.6
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-01",
+  "usage": 207.9
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-02",
+  "usage": 493.6
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-03",
+  "usage": 427.8
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-04",
+  "usage": 288
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-05",
+  "usage": 209.1
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-06",
+  "usage": 347.4
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-07",
+  "usage": 495.6
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-08",
+  "usage": 428.7
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-09",
+  "usage": 454.5
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-10",
+  "usage": 402.9
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-11",
+  "usage": 203.7
+},
+{
+  "user_id": "u7",
+  "year_month": "2025-12",
+  "usage": 475
+},
+{
+  "user_id": "u7",
+  "year_month": "2026-01",
+  "usage": 322.7
+},
+{
+  "user_id": "u7",
+  "year_month": "2026-02",
+  "usage": 124.4
+},
+{
+  "user_id": "u7",
+  "year_month": "2026-03",
+  "usage": 370.7
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-01",
+  "usage": 239.6
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-02",
+  "usage": 251.3
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-03",
+  "usage": 366.3
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-04",
+  "usage": 205.8
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-05",
+  "usage": 308.2
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-06",
+  "usage": 267.6
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-07",
+  "usage": 216.7
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-08",
+  "usage": 182.5
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-09",
+  "usage": 174.7
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-10",
+  "usage": 182.5
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-11",
+  "usage": 241.1
+},
+{
+  "user_id": "u8",
+  "year_month": "2025-12",
+  "usage": 386.7
+},
+{
+  "user_id": "u8",
+  "year_month": "2026-01",
+  "usage": 347.8
+},
+{
+  "user_id": "u8",
+  "year_month": "2026-02",
+  "usage": 371.6
+},
+{
+  "user_id": "u8",
+  "year_month": "2026-03",
+  "usage": 297.8
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-01",
+  "usage": 391.3
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-02",
+  "usage": 226.3
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-03",
+  "usage": 218.5
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-04",
+  "usage": 297.7
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-05",
+  "usage": 125.5
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-06",
+  "usage": 369.1
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-07",
+  "usage": 113.8
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-08",
+  "usage": 155.2
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-09",
+  "usage": 304
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-10",
+  "usage": 480.6
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-11",
+  "usage": 442.3
+},
+{
+  "user_id": "u9",
+  "year_month": "2025-12",
+  "usage": 234.8
+},
+{
+  "user_id": "u9",
+  "year_month": "2026-01",
+  "usage": 243.2
+},
+{
+  "user_id": "u9",
+  "year_month": "2026-02",
+  "usage": 388.2
+},
+{
+  "user_id": "u9",
+  "year_month": "2026-03",
+  "usage": 133.7
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-01",
+  "usage": 166.1
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-02",
+  "usage": 258.5
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-03",
+  "usage": 433.2
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-04",
+  "usage": 108
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-05",
+  "usage": 193.7
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-06",
+  "usage": 324.6
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-07",
+  "usage": 316.3
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-08",
+  "usage": 374
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-09",
+  "usage": 105.7
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-10",
+  "usage": 123.1
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-11",
+  "usage": 112.8
+},
+{
+  "user_id": "u10",
+  "year_month": "2025-12",
+  "usage": 195.7
+},
+{
+  "user_id": "u10",
+  "year_month": "2026-01",
+  "usage": 124
+},
+{
+  "user_id": "u10",
+  "year_month": "2026-02",
+  "usage": 335.3
+},
+{
+  "user_id": "u10",
+  "year_month": "2026-03",
+  "usage": 283.2
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-01",
+  "usage": 384.6
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-02",
+  "usage": 117.3
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-03",
+  "usage": 487.6
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-04",
+  "usage": 280.7
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-05",
+  "usage": 321.6
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-06",
+  "usage": 364.8
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-07",
+  "usage": 330.6
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-08",
+  "usage": 181.2
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-09",
+  "usage": 393.1
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-10",
+  "usage": 369.4
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-11",
+  "usage": 497.2
+},
+{
+  "user_id": "u11",
+  "year_month": "2025-12",
+  "usage": 254.2
+},
+{
+  "user_id": "u11",
+  "year_month": "2026-01",
+  "usage": 280.1
+},
+{
+  "user_id": "u11",
+  "year_month": "2026-02",
+  "usage": 386.4
+},
+{
+  "user_id": "u11",
+  "year_month": "2026-03",
+  "usage": 311.3
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-01",
+  "usage": 212.7
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-02",
+  "usage": 461.4
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-03",
+  "usage": 467
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-04",
+  "usage": 268.3
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-05",
+  "usage": 202.8
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-06",
+  "usage": 148.5
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-07",
+  "usage": 145.3
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-08",
+  "usage": 215.5
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-09",
+  "usage": 389.9
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-10",
+  "usage": 263.3
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-11",
+  "usage": 484
+},
+{
+  "user_id": "u12",
+  "year_month": "2025-12",
+  "usage": 211.5
+},
+{
+  "user_id": "u12",
+  "year_month": "2026-01",
+  "usage": 232.9
+},
+{
+  "user_id": "u12",
+  "year_month": "2026-02",
+  "usage": 372.5
+},
+{
+  "user_id": "u12",
+  "year_month": "2026-03",
+  "usage": 357.5
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-01",
+  "usage": 325.4
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-02",
+  "usage": 120
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-03",
+  "usage": 281.3
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-04",
+  "usage": 483.5
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-05",
+  "usage": 424.7
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-06",
+  "usage": 318.8
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-07",
+  "usage": 226.3
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-08",
+  "usage": 435
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-09",
+  "usage": 387.9
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-10",
+  "usage": 381.2
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-11",
+  "usage": 242.6
+},
+{
+  "user_id": "u13",
+  "year_month": "2025-12",
+  "usage": 205
+},
+{
+  "user_id": "u13",
+  "year_month": "2026-01",
+  "usage": 143
+},
+{
+  "user_id": "u13",
+  "year_month": "2026-02",
+  "usage": 461.5
+},
+{
+  "user_id": "u13",
+  "year_month": "2026-03",
+  "usage": 121.5
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-01",
+  "usage": 375.5
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-02",
+  "usage": 449.9
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-03",
+  "usage": 260.7
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-04",
+  "usage": 290.4
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-05",
+  "usage": 142.2
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-06",
+  "usage": 382.3
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-07",
+  "usage": 201.9
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-08",
+  "usage": 407.6
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-09",
+  "usage": 403.7
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-10",
+  "usage": 221
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-11",
+  "usage": 213.5
+},
+{
+  "user_id": "u14",
+  "year_month": "2025-12",
+  "usage": 405.9
+},
+{
+  "user_id": "u14",
+  "year_month": "2026-01",
+  "usage": 108.4
+},
+{
+  "user_id": "u14",
+  "year_month": "2026-02",
+  "usage": 373
+},
+{
+  "user_id": "u14",
+  "year_month": "2026-03",
+  "usage": 296.3
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-01",
+  "usage": 144.5
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-02",
+  "usage": 115.8
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-03",
+  "usage": 438.9
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-04",
+  "usage": 498.5
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-05",
+  "usage": 334.8
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-06",
+  "usage": 153.8
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-07",
+  "usage": 448.9
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-08",
+  "usage": 375.1
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-09",
+  "usage": 296.7
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-10",
+  "usage": 300.8
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-11",
+  "usage": 181.1
+},
+{
+  "user_id": "u15",
+  "year_month": "2025-12",
+  "usage": 186.2
+},
+{
+  "user_id": "u15",
+  "year_month": "2026-01",
+  "usage": 465.1
+},
+{
+  "user_id": "u15",
+  "year_month": "2026-02",
+  "usage": 349.1
+},
+{
+  "user_id": "u15",
+  "year_month": "2026-03",
+  "usage": 158.4
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-01",
+  "usage": 101.8
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-02",
+  "usage": 308.3
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-03",
+  "usage": 371.4
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-04",
+  "usage": 373.4
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-05",
+  "usage": 483.4
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-06",
+  "usage": 242.9
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-07",
+  "usage": 377
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-08",
+  "usage": 248.8
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-09",
+  "usage": 118.8
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-10",
+  "usage": 279.1
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-11",
+  "usage": 302.2
+},
+{
+  "user_id": "u16",
+  "year_month": "2025-12",
+  "usage": 104.2
+},
+{
+  "user_id": "u16",
+  "year_month": "2026-01",
+  "usage": 429.3
+},
+{
+  "user_id": "u16",
+  "year_month": "2026-02",
+  "usage": 175.8
+},
+{
+  "user_id": "u16",
+  "year_month": "2026-03",
+  "usage": 195.9
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-01",
+  "usage": 371.4
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-02",
+  "usage": 407.4
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-03",
+  "usage": 369
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-04",
+  "usage": 479.8
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-05",
+  "usage": 326.7
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-06",
+  "usage": 204.4
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-07",
+  "usage": 381.5
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-08",
+  "usage": 332.8
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-09",
+  "usage": 370.6
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-10",
+  "usage": 374.5
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-11",
+  "usage": 464.8
+},
+{
+  "user_id": "u17",
+  "year_month": "2025-12",
+  "usage": 193.6
+},
+{
+  "user_id": "u17",
+  "year_month": "2026-01",
+  "usage": 464.1
+},
+{
+  "user_id": "u17",
+  "year_month": "2026-02",
+  "usage": 435.9
+},
+{
+  "user_id": "u17",
+  "year_month": "2026-03",
+  "usage": 409
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-01",
+  "usage": 428.6
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-02",
+  "usage": 489
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-03",
+  "usage": 232.2
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-04",
+  "usage": 331.6
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-05",
+  "usage": 259.4
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-06",
+  "usage": 197
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-07",
+  "usage": 389.5
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-08",
+  "usage": 212.6
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-09",
+  "usage": 322.5
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-10",
+  "usage": 420.7
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-11",
+  "usage": 278
+},
+{
+  "user_id": "u18",
+  "year_month": "2025-12",
+  "usage": 163.2
+},
+{
+  "user_id": "u18",
+  "year_month": "2026-01",
+  "usage": 453.6
+},
+{
+  "user_id": "u18",
+  "year_month": "2026-02",
+  "usage": 128.1
+},
+{
+  "user_id": "u18",
+  "year_month": "2026-03",
+  "usage": 368.9
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-01",
+  "usage": 415.9
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-02",
+  "usage": 395.5
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-03",
+  "usage": 106.1
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-04",
+  "usage": 161.3
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-05",
+  "usage": 489.6
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-06",
+  "usage": 341.6
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-07",
+  "usage": 299.2
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-08",
+  "usage": 210.1
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-09",
+  "usage": 257.5
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-10",
+  "usage": 177.2
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-11",
+  "usage": 453.1
+},
+{
+  "user_id": "u19",
+  "year_month": "2025-12",
+  "usage": 260.3
+},
+{
+  "user_id": "u19",
+  "year_month": "2026-01",
+  "usage": 318.3
+},
+{
+  "user_id": "u19",
+  "year_month": "2026-02",
+  "usage": 311.1
+},
+{
+  "user_id": "u19",
+  "year_month": "2026-03",
+  "usage": 393.6
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-01",
+  "usage": 226.7
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-02",
+  "usage": 290.6
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-03",
+  "usage": 474.9
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-04",
+  "usage": 131.9
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-05",
+  "usage": 478.9
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-06",
+  "usage": 214.6
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-07",
+  "usage": 207.3
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-08",
+  "usage": 443.8
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-09",
+  "usage": 326.4
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-10",
+  "usage": 403.6
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-11",
+  "usage": 424.8
+},
+{
+  "user_id": "u20",
+  "year_month": "2025-12",
+  "usage": 449
+},
+{
+  "user_id": "u20",
+  "year_month": "2026-01",
+  "usage": 324.3
+},
+{
+  "user_id": "u20",
+  "year_month": "2026-02",
+  "usage": 226.2
+},
+{
+  "user_id": "u20",
+  "year_month": "2026-03",
+  "usage": 168.6
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-01",
+  "usage": 221.7
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-02",
+  "usage": 450.2
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-03",
+  "usage": 442.7
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-04",
+  "usage": 203.5
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-05",
+  "usage": 149.7
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-06",
+  "usage": 370.4
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-07",
+  "usage": 380.1
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-08",
+  "usage": 375.8
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-09",
+  "usage": 409
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-10",
+  "usage": 188.1
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-11",
+  "usage": 221.1
+},
+{
+  "user_id": "u21",
+  "year_month": "2025-12",
+  "usage": 301.9
+},
+{
+  "user_id": "u21",
+  "year_month": "2026-01",
+  "usage": 127.5
+},
+{
+  "user_id": "u21",
+  "year_month": "2026-02",
+  "usage": 341.4
+},
+{
+  "user_id": "u21",
+  "year_month": "2026-03",
+  "usage": 301.1
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-01",
+  "usage": 383.1
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-02",
+  "usage": 385.2
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-03",
+  "usage": 480.3
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-04",
+  "usage": 476.1
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-05",
+  "usage": 480.9
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-06",
+  "usage": 304.1
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-07",
+  "usage": 491
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-08",
+  "usage": 436.9
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-09",
+  "usage": 225.5
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-10",
+  "usage": 371.6
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-11",
+  "usage": 387.8
+},
+{
+  "user_id": "u22",
+  "year_month": "2025-12",
+  "usage": 243.3
+},
+{
+  "user_id": "u22",
+  "year_month": "2026-01",
+  "usage": 368.2
+},
+{
+  "user_id": "u22",
+  "year_month": "2026-02",
+  "usage": 195.3
+},
+{
+  "user_id": "u22",
+  "year_month": "2026-03",
+  "usage": 463.2
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-01",
+  "usage": 174.3
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-02",
+  "usage": 140.1
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-03",
+  "usage": 148.6
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-04",
+  "usage": 226.5
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-05",
+  "usage": 148
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-06",
+  "usage": 262.4
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-07",
+  "usage": 262.5
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-08",
+  "usage": 301.9
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-09",
+  "usage": 261
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-10",
+  "usage": 344.1
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-11",
+  "usage": 164.4
+},
+{
+  "user_id": "u23",
+  "year_month": "2025-12",
+  "usage": 183.2
+},
+{
+  "user_id": "u23",
+  "year_month": "2026-01",
+  "usage": 301.7
+},
+{
+  "user_id": "u23",
+  "year_month": "2026-02",
+  "usage": 229
+},
+{
+  "user_id": "u23",
+  "year_month": "2026-03",
+  "usage": 393.5
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-01",
+  "usage": 309.5
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-02",
+  "usage": 217.3
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-03",
+  "usage": 350.3
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-04",
+  "usage": 184.7
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-05",
+  "usage": 249.7
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-06",
+  "usage": 345.8
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-07",
+  "usage": 459.2
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-08",
+  "usage": 381.4
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-09",
+  "usage": 339.6
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-10",
+  "usage": 334.4
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-11",
+  "usage": 361.3
+},
+{
+  "user_id": "u24",
+  "year_month": "2025-12",
+  "usage": 438.4
+},
+{
+  "user_id": "u24",
+  "year_month": "2026-01",
+  "usage": 461.2
+},
+{
+  "user_id": "u24",
+  "year_month": "2026-02",
+  "usage": 465.4
+},
+{
+  "user_id": "u24",
+  "year_month": "2026-03",
+  "usage": 161.5
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-01",
+  "usage": 428.3
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-02",
+  "usage": 358.5
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-03",
+  "usage": 128.5
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-04",
+  "usage": 497.6
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-05",
+  "usage": 113.9
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-06",
+  "usage": 193.6
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-07",
+  "usage": 384.2
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-08",
+  "usage": 120.4
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-09",
+  "usage": 225.6
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-10",
+  "usage": 430.8
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-11",
+  "usage": 265.5
+},
+{
+  "user_id": "u25",
+  "year_month": "2025-12",
+  "usage": 147.6
+},
+{
+  "user_id": "u25",
+  "year_month": "2026-01",
+  "usage": 231.9
+},
+{
+  "user_id": "u25",
+  "year_month": "2026-02",
+  "usage": 198.1
+},
+{
+  "user_id": "u25",
+  "year_month": "2026-03",
+  "usage": 253.8
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-01",
+  "usage": 353.3
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-02",
+  "usage": 186.6
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-03",
+  "usage": 269.1
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-04",
+  "usage": 103.3
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-05",
+  "usage": 151.5
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-06",
+  "usage": 257.4
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-07",
+  "usage": 305.6
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-08",
+  "usage": 499.3
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-09",
+  "usage": 362
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-10",
+  "usage": 410.4
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-11",
+  "usage": 334.3
+},
+{
+  "user_id": "u26",
+  "year_month": "2025-12",
+  "usage": 402.3
+},
+{
+  "user_id": "u26",
+  "year_month": "2026-01",
+  "usage": 184.3
+},
+{
+  "user_id": "u26",
+  "year_month": "2026-02",
+  "usage": 145.6
+},
+{
+  "user_id": "u26",
+  "year_month": "2026-03",
+  "usage": 149.5
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-01",
+  "usage": 495.9
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-02",
+  "usage": 288.8
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-03",
+  "usage": 114.5
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-04",
+  "usage": 264
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-05",
+  "usage": 475.6
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-06",
+  "usage": 121
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-07",
+  "usage": 115.9
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-08",
+  "usage": 433.7
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-09",
+  "usage": 354.3
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-10",
+  "usage": 125.5
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-11",
+  "usage": 492.3
+},
+{
+  "user_id": "u27",
+  "year_month": "2025-12",
+  "usage": 107.3
+},
+{
+  "user_id": "u27",
+  "year_month": "2026-01",
+  "usage": 436.4
+},
+{
+  "user_id": "u27",
+  "year_month": "2026-02",
+  "usage": 164.1
+},
+{
+  "user_id": "u27",
+  "year_month": "2026-03",
+  "usage": 467.4
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-01",
+  "usage": 180.7
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-02",
+  "usage": 381.9
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-03",
+  "usage": 334.7
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-04",
+  "usage": 443.3
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-05",
+  "usage": 183
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-06",
+  "usage": 389.8
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-07",
+  "usage": 280.3
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-08",
+  "usage": 304.1
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-09",
+  "usage": 420.7
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-10",
+  "usage": 119.1
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-11",
+  "usage": 349.8
+},
+{
+  "user_id": "u28",
+  "year_month": "2025-12",
+  "usage": 160.2
+},
+{
+  "user_id": "u28",
+  "year_month": "2026-01",
+  "usage": 207.1
+},
+{
+  "user_id": "u28",
+  "year_month": "2026-02",
+  "usage": 316.7
+},
+{
+  "user_id": "u28",
+  "year_month": "2026-03",
+  "usage": 368.5
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-01",
+  "usage": 428.1
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-02",
+  "usage": 459.1
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-03",
+  "usage": 479.8
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-04",
+  "usage": 106.3
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-05",
+  "usage": 122.3
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-06",
+  "usage": 163
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-07",
+  "usage": 124.6
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-08",
+  "usage": 187.5
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-09",
+  "usage": 155.4
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-10",
+  "usage": 222.7
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-11",
+  "usage": 173.3
+},
+{
+  "user_id": "u29",
+  "year_month": "2025-12",
+  "usage": 176.5
+},
+{
+  "user_id": "u29",
+  "year_month": "2026-01",
+  "usage": 294.7
+},
+{
+  "user_id": "u29",
+  "year_month": "2026-02",
+  "usage": 167.4
+},
+{
+  "user_id": "u29",
+  "year_month": "2026-03",
+  "usage": 167.7
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-01",
+  "usage": 379.5
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-02",
+  "usage": 386.5
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-03",
+  "usage": 194.5
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-04",
+  "usage": 258.7
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-05",
+  "usage": 380
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-06",
+  "usage": 415.3
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-07",
+  "usage": 318.1
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-08",
+  "usage": 355.3
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-09",
+  "usage": 394.9
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-10",
+  "usage": 308.4
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-11",
+  "usage": 118.4
+},
+{
+  "user_id": "u30",
+  "year_month": "2025-12",
+  "usage": 374.1
+},
+{
+  "user_id": "u30",
+  "year_month": "2026-01",
+  "usage": 105.2
+},
+{
+  "user_id": "u30",
+  "year_month": "2026-02",
+  "usage": 108.4
+},
+{
+  "user_id": "u30",
+  "year_month": "2026-03",
+  "usage": 333.8
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-01",
+  "usage": 318
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-02",
+  "usage": 336.2
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-03",
+  "usage": 121.9
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-04",
+  "usage": 486.7
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-05",
+  "usage": 237.7
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-06",
+  "usage": 316.2
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-07",
+  "usage": 316.2
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-08",
+  "usage": 212.2
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-09",
+  "usage": 104
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-10",
+  "usage": 334.6
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-11",
+  "usage": 380.8
+},
+{
+  "user_id": "u31",
+  "year_month": "2025-12",
+  "usage": 309.4
+},
+{
+  "user_id": "u31",
+  "year_month": "2026-01",
+  "usage": 326.2
+},
+{
+  "user_id": "u31",
+  "year_month": "2026-02",
+  "usage": 180
+},
+{
+  "user_id": "u31",
+  "year_month": "2026-03",
+  "usage": 370.1
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-01",
+  "usage": 423.5
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-02",
+  "usage": 390.2
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-03",
+  "usage": 319.5
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-04",
+  "usage": 247
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-05",
+  "usage": 390
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-06",
+  "usage": 462
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-07",
+  "usage": 295.8
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-08",
+  "usage": 217.4
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-09",
+  "usage": 368
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-10",
+  "usage": 144.5
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-11",
+  "usage": 280.7
+},
+{
+  "user_id": "u32",
+  "year_month": "2025-12",
+  "usage": 366.7
+},
+{
+  "user_id": "u32",
+  "year_month": "2026-01",
+  "usage": 130.6
+},
+{
+  "user_id": "u32",
+  "year_month": "2026-02",
+  "usage": 421.4
+},
+{
+  "user_id": "u32",
+  "year_month": "2026-03",
+  "usage": 417
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-01",
+  "usage": 259.5
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-02",
+  "usage": 451.5
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-03",
+  "usage": 257.9
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-04",
+  "usage": 420.5
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-05",
+  "usage": 238.9
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-06",
+  "usage": 464.5
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-07",
+  "usage": 129.4
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-08",
+  "usage": 266.3
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-09",
+  "usage": 219.9
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-10",
+  "usage": 104.9
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-11",
+  "usage": 378.7
+},
+{
+  "user_id": "u33",
+  "year_month": "2025-12",
+  "usage": 290.6
+},
+{
+  "user_id": "u33",
+  "year_month": "2026-01",
+  "usage": 383.1
+},
+{
+  "user_id": "u33",
+  "year_month": "2026-02",
+  "usage": 157.2
+},
+{
+  "user_id": "u33",
+  "year_month": "2026-03",
+  "usage": 129.5
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-01",
+  "usage": 467.3
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-02",
+  "usage": 268.4
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-03",
+  "usage": 474.6
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-04",
+  "usage": 434.5
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-05",
+  "usage": 193.4
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-06",
+  "usage": 102.8
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-07",
+  "usage": 180.9
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-08",
+  "usage": 466.9
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-09",
+  "usage": 436
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-10",
+  "usage": 194.9
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-11",
+  "usage": 100.7
+},
+{
+  "user_id": "u34",
+  "year_month": "2025-12",
+  "usage": 312.4
+},
+{
+  "user_id": "u34",
+  "year_month": "2026-01",
+  "usage": 182.7
+},
+{
+  "user_id": "u34",
+  "year_month": "2026-02",
+  "usage": 450.2
+},
+{
+  "user_id": "u34",
+  "year_month": "2026-03",
+  "usage": 284.3
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-01",
+  "usage": 315.6
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-02",
+  "usage": 158.4
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-03",
+  "usage": 448.5
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-04",
+  "usage": 384.2
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-05",
+  "usage": 446.3
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-06",
+  "usage": 294.9
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-07",
+  "usage": 455.8
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-08",
+  "usage": 125.7
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-09",
+  "usage": 124.4
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-10",
+  "usage": 139.9
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-11",
+  "usage": 283.2
+},
+{
+  "user_id": "u35",
+  "year_month": "2025-12",
+  "usage": 459.1
+},
+{
+  "user_id": "u35",
+  "year_month": "2026-01",
+  "usage": 251.8
+},
+{
+  "user_id": "u35",
+  "year_month": "2026-02",
+  "usage": 476.9
+},
+{
+  "user_id": "u35",
+  "year_month": "2026-03",
+  "usage": 400.4
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-01",
+  "usage": 262.7
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-02",
+  "usage": 462.9
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-03",
+  "usage": 423.3
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-04",
+  "usage": 341.9
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-05",
+  "usage": 157.6
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-06",
+  "usage": 202.1
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-07",
+  "usage": 346.2
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-08",
+  "usage": 439.4
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-09",
+  "usage": 369.8
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-10",
+  "usage": 337.8
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-11",
+  "usage": 162.7
+},
+{
+  "user_id": "u36",
+  "year_month": "2025-12",
+  "usage": 373.5
+},
+{
+  "user_id": "u36",
+  "year_month": "2026-01",
+  "usage": 118.3
+},
+{
+  "user_id": "u36",
+  "year_month": "2026-02",
+  "usage": 179.7
+},
+{
+  "user_id": "u36",
+  "year_month": "2026-03",
+  "usage": 234
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-01",
+  "usage": 244.2
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-02",
+  "usage": 382.8
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-03",
+  "usage": 326.3
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-04",
+  "usage": 172.8
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-05",
+  "usage": 366.1
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-06",
+  "usage": 169.9
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-07",
+  "usage": 136.9
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-08",
+  "usage": 410.7
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-09",
+  "usage": 257.6
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-10",
+  "usage": 424.7
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-11",
+  "usage": 463.5
+},
+{
+  "user_id": "u37",
+  "year_month": "2025-12",
+  "usage": 111.9
+},
+{
+  "user_id": "u37",
+  "year_month": "2026-01",
+  "usage": 314.7
+},
+{
+  "user_id": "u37",
+  "year_month": "2026-02",
+  "usage": 305.4
+},
+{
+  "user_id": "u37",
+  "year_month": "2026-03",
+  "usage": 256.8
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-01",
+  "usage": 167.6
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-02",
+  "usage": 379.8
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-03",
+  "usage": 143.4
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-04",
+  "usage": 163.2
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-05",
+  "usage": 338.3
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-06",
+  "usage": 322.5
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-07",
+  "usage": 224.9
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-08",
+  "usage": 194
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-09",
+  "usage": 247.8
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-10",
+  "usage": 482.6
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-11",
+  "usage": 383.2
+},
+{
+  "user_id": "u38",
+  "year_month": "2025-12",
+  "usage": 133.2
+},
+{
+  "user_id": "u38",
+  "year_month": "2026-01",
+  "usage": 155.9
+},
+{
+  "user_id": "u38",
+  "year_month": "2026-02",
+  "usage": 383.4
+},
+{
+  "user_id": "u38",
+  "year_month": "2026-03",
+  "usage": 353.2
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-01",
+  "usage": 321.9
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-02",
+  "usage": 464.5
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-03",
+  "usage": 203.4
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-04",
+  "usage": 442.4
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-05",
+  "usage": 267.1
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-06",
+  "usage": 110.8
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-07",
+  "usage": 355.2
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-08",
+  "usage": 481.8
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-09",
+  "usage": 226.6
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-10",
+  "usage": 423.4
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-11",
+  "usage": 158.1
+},
+{
+  "user_id": "u39",
+  "year_month": "2025-12",
+  "usage": 427
+},
+{
+  "user_id": "u39",
+  "year_month": "2026-01",
+  "usage": 276.1
+},
+{
+  "user_id": "u39",
+  "year_month": "2026-02",
+  "usage": 353.8
+},
+{
+  "user_id": "u39",
+  "year_month": "2026-03",
+  "usage": 486.9
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-01",
+  "usage": 462.7
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-02",
+  "usage": 377.5
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-03",
+  "usage": 281.8
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-04",
+  "usage": 314.2
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-05",
+  "usage": 295.7
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-06",
+  "usage": 393.4
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-07",
+  "usage": 199.7
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-08",
+  "usage": 102.4
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-09",
+  "usage": 162.1
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-10",
+  "usage": 222
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-11",
+  "usage": 176
+},
+{
+  "user_id": "u40",
+  "year_month": "2025-12",
+  "usage": 334
+},
+{
+  "user_id": "u40",
+  "year_month": "2026-01",
+  "usage": 442.9
+},
+{
+  "user_id": "u40",
+  "year_month": "2026-02",
+  "usage": 167.9
+},
+{
+  "user_id": "u40",
+  "year_month": "2026-03",
+  "usage": 194.5
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-01",
+  "usage": 185.4
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-02",
+  "usage": 144.9
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-03",
+  "usage": 468.4
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-04",
+  "usage": 212.2
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-05",
+  "usage": 277.7
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-06",
+  "usage": 107.3
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-07",
+  "usage": 400.1
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-08",
+  "usage": 113.3
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-09",
+  "usage": 135.3
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-10",
+  "usage": 149.8
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-11",
+  "usage": 158.9
+},
+{
+  "user_id": "u41",
+  "year_month": "2025-12",
+  "usage": 194.2
+},
+{
+  "user_id": "u41",
+  "year_month": "2026-01",
+  "usage": 169.5
+},
+{
+  "user_id": "u41",
+  "year_month": "2026-02",
+  "usage": 456
+},
+{
+  "user_id": "u41",
+  "year_month": "2026-03",
+  "usage": 278.5
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-01",
+  "usage": 128.8
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-02",
+  "usage": 402.6
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-03",
+  "usage": 411
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-04",
+  "usage": 296.5
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-05",
+  "usage": 351
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-06",
+  "usage": 381
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-07",
+  "usage": 117.6
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-08",
+  "usage": 183.5
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-09",
+  "usage": 193
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-10",
+  "usage": 148.6
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-11",
+  "usage": 265.2
+},
+{
+  "user_id": "u42",
+  "year_month": "2025-12",
+  "usage": 419.5
+},
+{
+  "user_id": "u42",
+  "year_month": "2026-01",
+  "usage": 228.3
+},
+{
+  "user_id": "u42",
+  "year_month": "2026-02",
+  "usage": 393.9
+},
+{
+  "user_id": "u42",
+  "year_month": "2026-03",
+  "usage": 436.1
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-01",
+  "usage": 123.5
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-02",
+  "usage": 442.8
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-03",
+  "usage": 150.8
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-04",
+  "usage": 232.2
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-05",
+  "usage": 173.6
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-06",
+  "usage": 491.9
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-07",
+  "usage": 371.4
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-08",
+  "usage": 437
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-09",
+  "usage": 344
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-10",
+  "usage": 273.4
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-11",
+  "usage": 492.1
+},
+{
+  "user_id": "u43",
+  "year_month": "2025-12",
+  "usage": 242.6
+},
+{
+  "user_id": "u43",
+  "year_month": "2026-01",
+  "usage": 155
+},
+{
+  "user_id": "u43",
+  "year_month": "2026-02",
+  "usage": 289.7
+},
+{
+  "user_id": "u43",
+  "year_month": "2026-03",
+  "usage": 112
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-01",
+  "usage": 103
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-02",
+  "usage": 265.8
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-03",
+  "usage": 218.2
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-04",
+  "usage": 439.1
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-05",
+  "usage": 375.7
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-06",
+  "usage": 219.6
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-07",
+  "usage": 413.8
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-08",
+  "usage": 166.3
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-09",
+  "usage": 493.1
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-10",
+  "usage": 453.9
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-11",
+  "usage": 467.4
+},
+{
+  "user_id": "u44",
+  "year_month": "2025-12",
+  "usage": 399.6
+},
+{
+  "user_id": "u44",
+  "year_month": "2026-01",
+  "usage": 419
+},
+{
+  "user_id": "u44",
+  "year_month": "2026-02",
+  "usage": 341.3
+},
+{
+  "user_id": "u44",
+  "year_month": "2026-03",
+  "usage": 141.8
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-01",
+  "usage": 214
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-02",
+  "usage": 165.4
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-03",
+  "usage": 361.9
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-04",
+  "usage": 129.2
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-05",
+  "usage": 226.9
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-06",
+  "usage": 417.1
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-07",
+  "usage": 254.5
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-08",
+  "usage": 470.1
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-09",
+  "usage": 133.7
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-10",
+  "usage": 119.4
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-11",
+  "usage": 395.4
+},
+{
+  "user_id": "u45",
+  "year_month": "2025-12",
+  "usage": 209.2
+},
+{
+  "user_id": "u45",
+  "year_month": "2026-01",
+  "usage": 229.9
+},
+{
+  "user_id": "u45",
+  "year_month": "2026-02",
+  "usage": 378
+},
+{
+  "user_id": "u45",
+  "year_month": "2026-03",
+  "usage": 424.5
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-01",
+  "usage": 239.8
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-02",
+  "usage": 446.2
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-03",
+  "usage": 332.1
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-04",
+  "usage": 116.7
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-05",
+  "usage": 264.1
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-06",
+  "usage": 364.9
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-07",
+  "usage": 472.2
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-08",
+  "usage": 277
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-09",
+  "usage": 208.2
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-10",
+  "usage": 197.8
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-11",
+  "usage": 237
+},
+{
+  "user_id": "u46",
+  "year_month": "2025-12",
+  "usage": 119.1
+},
+{
+  "user_id": "u46",
+  "year_month": "2026-01",
+  "usage": 108.2
+},
+{
+  "user_id": "u46",
+  "year_month": "2026-02",
+  "usage": 265.4
+},
+{
+  "user_id": "u46",
+  "year_month": "2026-03",
+  "usage": 140.7
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-01",
+  "usage": 235.3
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-02",
+  "usage": 237.8
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-03",
+  "usage": 475.7
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-04",
+  "usage": 420.2
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-05",
+  "usage": 470.8
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-06",
+  "usage": 388
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-07",
+  "usage": 372.8
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-08",
+  "usage": 466.4
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-09",
+  "usage": 153.2
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-10",
+  "usage": 286.1
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-11",
+  "usage": 286.1
+},
+{
+  "user_id": "u47",
+  "year_month": "2025-12",
+  "usage": 406.8
+},
+{
+  "user_id": "u47",
+  "year_month": "2026-01",
+  "usage": 146
+},
+{
+  "user_id": "u47",
+  "year_month": "2026-02",
+  "usage": 448.8
+},
+{
+  "user_id": "u47",
+  "year_month": "2026-03",
+  "usage": 290.3
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-01",
+  "usage": 110.6
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-02",
+  "usage": 362.6
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-03",
+  "usage": 462.5
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-04",
+  "usage": 489.4
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-05",
+  "usage": 483.6
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-06",
+  "usage": 458.3
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-07",
+  "usage": 295.9
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-08",
+  "usage": 201.9
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-09",
+  "usage": 368.3
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-10",
+  "usage": 272.9
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-11",
+  "usage": 125.3
+},
+{
+  "user_id": "u48",
+  "year_month": "2025-12",
+  "usage": 340.8
+},
+{
+  "user_id": "u48",
+  "year_month": "2026-01",
+  "usage": 132.8
+},
+{
+  "user_id": "u48",
+  "year_month": "2026-02",
+  "usage": 298
+},
+{
+  "user_id": "u48",
+  "year_month": "2026-03",
+  "usage": 267.8
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-01",
+  "usage": 380.5
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-02",
+  "usage": 241.3
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-03",
+  "usage": 150
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-04",
+  "usage": 256.3
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-05",
+  "usage": 178.9
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-06",
+  "usage": 424
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-07",
+  "usage": 119.1
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-08",
+  "usage": 445.3
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-09",
+  "usage": 276.9
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-10",
+  "usage": 162.2
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-11",
+  "usage": 238.6
+},
+{
+  "user_id": "u49",
+  "year_month": "2025-12",
+  "usage": 314.1
+},
+{
+  "user_id": "u49",
+  "year_month": "2026-01",
+  "usage": 473.3
+},
+{
+  "user_id": "u49",
+  "year_month": "2026-02",
+  "usage": 163
+},
+{
+  "user_id": "u49",
+  "year_month": "2026-03",
+  "usage": 392.3
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-01",
+  "usage": 274.9
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-02",
+  "usage": 308
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-03",
+  "usage": 385.4
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-04",
+  "usage": 346.9
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-05",
+  "usage": 181.3
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-06",
+  "usage": 169.1
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-07",
+  "usage": 209.3
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-08",
+  "usage": 104.7
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-09",
+  "usage": 185.4
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-10",
+  "usage": 480.9
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-11",
+  "usage": 197.9
+},
+{
+  "user_id": "u50",
+  "year_month": "2025-12",
+  "usage": 315.7
+},
+{
+  "user_id": "u50",
+  "year_month": "2026-01",
+  "usage": 168.7
+},
+{
+  "user_id": "u50",
+  "year_month": "2026-02",
+  "usage": 250.3
+},
+{
+  "user_id": "u50",
+  "year_month": "2026-03",
+  "usage": 417.1
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-01",
+  "usage": 369.4
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-02",
+  "usage": 274.8
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-03",
+  "usage": 159.7
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-04",
+  "usage": 153.2
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-05",
+  "usage": 421.3
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-06",
+  "usage": 125.1
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-07",
+  "usage": 478.3
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-08",
+  "usage": 273.8
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-09",
+  "usage": 457.3
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-10",
+  "usage": 366.1
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-11",
+  "usage": 368.3
+},
+{
+  "user_id": "u51",
+  "year_month": "2025-12",
+  "usage": 343.6
+},
+{
+  "user_id": "u51",
+  "year_month": "2026-01",
+  "usage": 479.8
+},
+{
+  "user_id": "u51",
+  "year_month": "2026-02",
+  "usage": 209.6
+},
+{
+  "user_id": "u51",
+  "year_month": "2026-03",
+  "usage": 339.7
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-01",
+  "usage": 112.3
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-02",
+  "usage": 119.2
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-03",
+  "usage": 362.2
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-04",
+  "usage": 145.5
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-05",
+  "usage": 485.3
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-06",
+  "usage": 403.3
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-07",
+  "usage": 253.2
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-08",
+  "usage": 359.1
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-09",
+  "usage": 338.1
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-10",
+  "usage": 491.5
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-11",
+  "usage": 262.7
+},
+{
+  "user_id": "u52",
+  "year_month": "2025-12",
+  "usage": 287.9
+},
+{
+  "user_id": "u52",
+  "year_month": "2026-01",
+  "usage": 386.3
+},
+{
+  "user_id": "u52",
+  "year_month": "2026-02",
+  "usage": 489
+},
+{
+  "user_id": "u52",
+  "year_month": "2026-03",
+  "usage": 333.2
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-01",
+  "usage": 211.2
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-02",
+  "usage": 101.9
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-03",
+  "usage": 348
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-04",
+  "usage": 289.7
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-05",
+  "usage": 466.6
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-06",
+  "usage": 429.8
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-07",
+  "usage": 444.3
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-08",
+  "usage": 220.3
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-09",
+  "usage": 266
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-10",
+  "usage": 452.7
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-11",
+  "usage": 176
+},
+{
+  "user_id": "u53",
+  "year_month": "2025-12",
+  "usage": 256.7
+},
+{
+  "user_id": "u53",
+  "year_month": "2026-01",
+  "usage": 251.1
+},
+{
+  "user_id": "u53",
+  "year_month": "2026-02",
+  "usage": 377.1
+},
+{
+  "user_id": "u53",
+  "year_month": "2026-03",
+  "usage": 409.6
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-01",
+  "usage": 363.9
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-02",
+  "usage": 471.3
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-03",
+  "usage": 377.8
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-04",
+  "usage": 120.5
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-05",
+  "usage": 115.6
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-06",
+  "usage": 173.6
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-07",
+  "usage": 235.7
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-08",
+  "usage": 150.1
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-09",
+  "usage": 305.1
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-10",
+  "usage": 328.1
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-11",
+  "usage": 273.6
+},
+{
+  "user_id": "u54",
+  "year_month": "2025-12",
+  "usage": 121.8
+},
+{
+  "user_id": "u54",
+  "year_month": "2026-01",
+  "usage": 141.5
+},
+{
+  "user_id": "u54",
+  "year_month": "2026-02",
+  "usage": 373.2
+},
+{
+  "user_id": "u54",
+  "year_month": "2026-03",
+  "usage": 118.3
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-01",
+  "usage": 417.7
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-02",
+  "usage": 462.2
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-03",
+  "usage": 226.4
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-04",
+  "usage": 317.2
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-05",
+  "usage": 251.1
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-06",
+  "usage": 260.2
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-07",
+  "usage": 457.3
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-08",
+  "usage": 163.7
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-09",
+  "usage": 400.6
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-10",
+  "usage": 179.9
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-11",
+  "usage": 108.4
+},
+{
+  "user_id": "u55",
+  "year_month": "2025-12",
+  "usage": 183.7
+},
+{
+  "user_id": "u55",
+  "year_month": "2026-01",
+  "usage": 265.3
+},
+{
+  "user_id": "u55",
+  "year_month": "2026-02",
+  "usage": 295.8
+},
+{
+  "user_id": "u55",
+  "year_month": "2026-03",
+  "usage": 316.3
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-01",
+  "usage": 206.1
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-02",
+  "usage": 464.5
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-03",
+  "usage": 258
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-04",
+  "usage": 378.8
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-05",
+  "usage": 278.2
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-06",
+  "usage": 388.5
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-07",
+  "usage": 482.7
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-08",
+  "usage": 164.9
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-09",
+  "usage": 213.9
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-10",
+  "usage": 451.2
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-11",
+  "usage": 152.3
+},
+{
+  "user_id": "u56",
+  "year_month": "2025-12",
+  "usage": 378
+},
+{
+  "user_id": "u56",
+  "year_month": "2026-01",
+  "usage": 300.4
+},
+{
+  "user_id": "u56",
+  "year_month": "2026-02",
+  "usage": 204.8
+},
+{
+  "user_id": "u56",
+  "year_month": "2026-03",
+  "usage": 495.6
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-01",
+  "usage": 113.4
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-02",
+  "usage": 456.7
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-03",
+  "usage": 408.3
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-04",
+  "usage": 224.7
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-05",
+  "usage": 277.2
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-06",
+  "usage": 414.2
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-07",
+  "usage": 365.1
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-08",
+  "usage": 185.9
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-09",
+  "usage": 277
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-10",
+  "usage": 280.3
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-11",
+  "usage": 255.1
+},
+{
+  "user_id": "u57",
+  "year_month": "2025-12",
+  "usage": 484.6
+},
+{
+  "user_id": "u57",
+  "year_month": "2026-01",
+  "usage": 215.6
+},
+{
+  "user_id": "u57",
+  "year_month": "2026-02",
+  "usage": 382.5
+},
+{
+  "user_id": "u57",
+  "year_month": "2026-03",
+  "usage": 244.6
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-01",
+  "usage": 480.8
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-02",
+  "usage": 200.9
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-03",
+  "usage": 473.4
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-04",
+  "usage": 182.4
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-05",
+  "usage": 186.5
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-06",
+  "usage": 150.9
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-07",
+  "usage": 359.4
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-08",
+  "usage": 388.2
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-09",
+  "usage": 355.2
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-10",
+  "usage": 242.6
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-11",
+  "usage": 499.1
+},
+{
+  "user_id": "u58",
+  "year_month": "2025-12",
+  "usage": 276.1
+},
+{
+  "user_id": "u58",
+  "year_month": "2026-01",
+  "usage": 421.8
+},
+{
+  "user_id": "u58",
+  "year_month": "2026-02",
+  "usage": 351.1
+},
+{
+  "user_id": "u58",
+  "year_month": "2026-03",
+  "usage": 417.8
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-01",
+  "usage": 483.3
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-02",
+  "usage": 284.1
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-03",
+  "usage": 391.8
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-04",
+  "usage": 482.3
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-05",
+  "usage": 279.1
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-06",
+  "usage": 426.2
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-07",
+  "usage": 365.8
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-08",
+  "usage": 300.3
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-09",
+  "usage": 109.5
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-10",
+  "usage": 418.7
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-11",
+  "usage": 126
+},
+{
+  "user_id": "u59",
+  "year_month": "2025-12",
+  "usage": 371
+},
+{
+  "user_id": "u59",
+  "year_month": "2026-01",
+  "usage": 118.2
+},
+{
+  "user_id": "u59",
+  "year_month": "2026-02",
+  "usage": 261.9
+},
+{
+  "user_id": "u59",
+  "year_month": "2026-03",
+  "usage": 448.2
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-01",
+  "usage": 290.1
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-02",
+  "usage": 161.4
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-03",
+  "usage": 427.4
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-04",
+  "usage": 102.6
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-05",
+  "usage": 373.8
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-06",
+  "usage": 145.4
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-07",
+  "usage": 382.7
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-08",
+  "usage": 155.3
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-09",
+  "usage": 498.5
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-10",
+  "usage": 428.6
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-11",
+  "usage": 437.4
+},
+{
+  "user_id": "u60",
+  "year_month": "2025-12",
+  "usage": 179.3
+},
+{
+  "user_id": "u60",
+  "year_month": "2026-01",
+  "usage": 195.3
+},
+{
+  "user_id": "u60",
+  "year_month": "2026-02",
+  "usage": 130
+},
+{
+  "user_id": "u60",
+  "year_month": "2026-03",
+  "usage": 458.7
+}]

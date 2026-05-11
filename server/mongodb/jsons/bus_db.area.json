@@ -1,0 +1,66 @@
+[{
+  "_id": "a1",
+  "name": "城东台区",
+  "address": "城东街道1号",
+  "manager_id": "m1"
+},
+{
+  "_id": "a2",
+  "name": "城西台区A",
+  "address": "城西街道5号",
+  "manager_id": "m2"
+},
+{
+  "_id": "a3",
+  "name": "城西台区B",
+  "address": "城西街道8号",
+  "manager_id": "m2"
+},
+{
+  "_id": "a4",
+  "name": "城南台区A",
+  "address": "城南大道10号",
+  "manager_id": "m3"
+},
+{
+  "_id": "a5",
+  "name": "城南台区B",
+  "address": "城南大道15号",
+  "manager_id": "m3"
+},
+{
+  "_id": "a6",
+  "name": "城北台区A",
+  "address": "城北工业园2号",
+  "manager_id": "m4"
+},
+{
+  "_id": "a7",
+  "name": "城北台区B",
+  "address": "城北工业园6号",
+  "manager_id": "m4"
+},
+{
+  "_id": "a8",
+  "name": "城北台区C",
+  "address": "城北工业园9号",
+  "manager_id": "m4"
+},
+{
+  "_id": "a9",
+  "name": "开发区台区A",
+  "address": "开发区创新路1号",
+  "manager_id": "m5"
+},
+{
+  "_id": "a10",
+  "name": "开发区台区B",
+  "address": "开发区创新路5号",
+  "manager_id": "m5"
+},
+{
+  "_id": "a11",
+  "name": "开发区台区C",
+  "address": "开发区创新路9号",
+  "manager_id": "m5"
+}]

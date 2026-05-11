@@ -11,14 +11,14 @@ Releases 中有打包好的docker镜像，可直接运行测试
 ## 初始化
 
 - server、web均需安装依赖
-- mongodb创建数据库system_db、bus_db
-- 执行`npm run init`，判断有无.env文件，若没有.env则生成；初始化mongodb数据库，可用此命令重置数据库，不会重置.env文件
+- 执行`npm run init`，判断有无.env文件，若没有.env则生成
+- 执行`npm run reset`， 初始化mongodb数据库，可用此命令重置数据库删除测试产生的数据
 
 ## 启动
 
 - **启动chroma服务**：`npm run chroma`
 - **启动node服务**：`npm run node`
-- **启动前端**：`npm run web`
+- **启动前端**：`npm run front`
 
 ## 技术栈总览
 

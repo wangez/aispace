@@ -1,12 +1,13 @@
 ## docker镜像
 
-Releases 中有打包好的docker镜像，可直接运行测试
+Releases 中有打包好的docker镜像，有我的DEEPSEEK_API_KEY，可直接运行访问localhsot:8080测试
 
 ## 初始化
 
 - server、web均需安装依赖
 - 执行`npm run init`，判断有无.env文件，若没有.env则生成
 - 执行`npm run reset`， 初始化mongodb数据库，可用此命令重置数据库删除测试产生的数据
+- 配置key，`server\.env`文件中配置DEEPSEEK_API_KEY
 
 ## 启动
 

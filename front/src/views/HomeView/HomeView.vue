@@ -57,6 +57,7 @@ const submitChat = async ({ label }: { label: string }) => {
             }
             activeChatKey.value = data.chatId
             streamAnswer.value = ''
+            streamReasoning.value = ''
         })
         .on('delta', (data) => {
             if (historyId !== activeHistory.value) {

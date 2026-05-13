@@ -1,7 +1,7 @@
 // 意图分类
 const { dsChat } = require('../../config/LLMs');
 
-async function callLLMForIntent(query, messages, supplement) {
+async function advancedIntentRecognition(query, messages, supplement) {
     const text = messages.map(item => `${item.role === 'user' ? '用户：' : 'ai：'}${item.content}`)
 
     let historyText = supplement
@@ -42,10 +42,10 @@ ${historyText}
     if (supplement) {
         console.log('判断为supplement后加载历史对话再次判断', result)
     } else if (result.intent === 'supplement' && messages.length) {
-        return await callLLMForIntent(query, messages, true)
+        return await advancedIntentRecognition(query, messages, true)
     }
 
     return { ...result, source: 'llm_routing' };
 }
 
-module.exports = callLLMForIntent
+module.exports = advancedIntentRecognition

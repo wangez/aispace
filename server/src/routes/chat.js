@@ -1,5 +1,6 @@
 // 引用依赖
 const express = require('express')
+const { ChatDeepSeek } = require('@langchain/deepseek')
 const { getChatByHistory, saveChat } = require('../models/SysChat')
 const History = require('../models/SysHistory')
 const Counter = require('../models/SysCounter')
@@ -9,6 +10,9 @@ const advancedIntentRecognition = require('./tools/advancedIntentRecognition')
 const forecastByTrendTool = require('./tools/forecastByTrendTool')
 const get12MounthUsage = require('./tools/get12MounthUsage')
 const createChartOptions = require('./tools/createChartOptions')
+const findAreaManger = require('./tools/findAreaManger')
+const findMangerArea = require('./tools/findMangerArea')
+
 const createRunAgent = require('./tools/createRunAgent')
 
 const router = express.Router()
@@ -24,7 +28,7 @@ async function getNextSequenceValue(historyId) {
     const counter = await Counter.findOneAndUpdate(
         { _id: historyId },
         { $inc: { seq: 1 } },
-        { new: true, upsert: true }
+        { returnDocument: 'after', upsert: true }
     );
     return counter.seq
 }
@@ -63,6 +67,7 @@ router.post('/', async (req, res) => {
         if (intent === 'supplement') {
             intent = result.supplemented
         }
+        console.log(intent)
         let agent
         if (intent === 'predict_with_trend') {
             agent = createRunAgent([forecastByTrendTool, get12MounthUsage])
@@ -72,13 +77,38 @@ router.post('/', async (req, res) => {
             agent = createRunAgent([forecastByTrendTool, get12MounthUsage, createChartOptions])
         } else if (intent === 'data_display_chart') {
             agent = createRunAgent([get12MounthUsage, createChartOptions])
+        } else if (intent === 'area_manager') {
+            agent = createRunAgent([findAreaManger, findMangerArea])
         }
-        let full = await agent(res, req.body.content, messages)
-        fullContent = full.fullContent
-        fullReasoning = full.fullReasoning
-        aiChat.status = 'completed'
-        aiChat.content = fullContent
-        aiChat.reasoning = fullReasoning
+        if (agent) {
+            let full = await agent(res, req.body.content, messages)
+            fullContent = full.fullContent
+            fullReasoning = full.fullReasoning
+            aiChat.status = 'completed'
+            aiChat.content = fullContent
+            aiChat.reasoning = fullReasoning
+        } else {
+            // 模型配置
+            const llm = new ChatDeepSeek({
+                model: 'deepseek-reasoner',
+                temperature: 0.7
+            })
+            const stream = await llm.stream([
+                ...messages,
+                { role: 'user', content: req.body.content }
+            ])
+            let fullContent = ''
+            for await (const chunk of stream) {
+                const delta = chunk.content
+                if (delta) {
+                    fullContent += delta
+                    writeSSE(res, 'delta', { content: delta })
+                }
+            }
+            aiChat.status = 'completed'
+            aiChat.content = fullContent
+        }
+        
         await aiChat.save()
         // 发送结束标记
         writeSSE(res, 'done', { status: 'success' })

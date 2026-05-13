@@ -16,6 +16,7 @@ ${text.join(`
 - predict_with_trend_chart（基于趋势的预测，并通过图表展示）
 - simple_predict（简单预测，不强调依据）
 - data_display_chart（查询并展示数据，并通过图表展示）
+- area_manager（查询台区和台区经理关系）
 - supplement（补充、完善、澄清、纠正、追问）
 - other（其他）
 

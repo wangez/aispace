@@ -24,6 +24,8 @@
     "docker:rm": "docker rm -f wnz_agent_wapper",
     "docker:_commit": "docker commit wnz_agent_wapper wnz_agent_with_data:latest",
     "docker:_save": "docker save wnz_agent_with_data:latest | gzip > wnz_agent_with_data.tar.gz",
-    "docker:save": "npm run docker:_commit && npm run docker:_save"
+    "docker:save": "npm run docker:_commit && npm run docker:_save",
+    "docker:start": "docker start wnz_agent_wapper",
+    "docker:stop": "docker stop wnz_agent_wapper"
   }
 }

@@ -24,8 +24,17 @@ const areaSchema = new mongoose.Schema({
 }, { collection: 'bus_area' });
 const Area = mongoose.model("Area", areaSchema);
 
+const managerSchema = new mongoose.Schema({
+    _id: String,
+    name: String,
+    address: String,
+    manager_id: String
+}, { collection: 'bus_manager' });
+const Manager = mongoose.model("Manager", managerSchema);
+
 module.exports = {
     Usage,
     User,
-    Area
+    Area,
+    Manager
 }

@@ -2,15 +2,32 @@
 import { getStreamList, getAllChunks } from '@/api/agentMessage'
 import { ref, onBeforeMount, watch } from "vue";
 
-interface Formated {
-    type: string,
-    indent: number,
-    text: string,
+interface ToolCalls {
+    args: string
+    id: string
+    name: string
+}
+interface MessageList {
+    id: string[]
+    kwargs: {
+        content: string
+        additional_kwargs: {
+            reasoning_content: string
+        }
+        tool_calls: ToolCalls[]
+    }
+}
+interface MessageItem {
+    reasoning_content: string
+    tool_calls: ToolCalls[]
+    content: string[]
+    type: string
+    formated?: object
 }
 
 const timeList = ref([])
-const active = ref(0)
-const msgList = ref<any[]>([])
+const active = ref<number>(0)
+const msgList = ref<MessageItem[]>([])
 
 const formatJSON = (json: string) => json.split('\n')
     .filter(item => item.match(/(^\s*)([^\s].*$)/))
@@ -27,8 +44,8 @@ const formatJSON = (json: string) => json.split('\n')
 watch(() => active.value, async () => {
     const res = await getAllChunks(active.value)
     let data = JSON.parse(res.data.data.messageList)
-    msgList.value = data.map((item: any) => {
-        let obj: any = {
+    msgList.value = data.map((item: MessageList) => {
+        let obj: MessageItem = {
             type: item.id[2],
             content: item.kwargs.content.split('\n'),
             reasoning_content: item.kwargs.additional_kwargs?.reasoning_content,
@@ -55,7 +72,7 @@ onBeforeMount(async () => {
                 {{ item }}</div>
         </div>
         <div style="width: 0; flex: 1; height: 100%; overflow: auto; background: #ccc; text-align: left; color: #fff;">
-            <div v-for="item in msgList" :class="item.type" :key="item.id" style="margin-bottom: 16px;">
+            <div v-for="(item, index) in msgList" :class="item.type" :key="index" style="margin-bottom: 16px;">
                 <div>
                     <span class="type">{{ item.type }}</span>
                 </div>

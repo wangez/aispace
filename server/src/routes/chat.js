@@ -158,12 +158,16 @@ router.post('/', async (req, res) => {
             console.log('快速意图分类')
             type = await isProgrammingRelated(content);
         }
-        console.log(type)
-        roleInfo = (await Role.find({ code: type }))[0]
 
+        if (type !== 'bus') {
+            roleInfo = await Role.find({ code: type })
+            console.log(roleInfo)
+            roleInfo = roleInfo[0]
+            type = roleInfo.code
+        }
 
         let messages
-        if (roleInfo.code === 'bus') {
+        if (type === 'bus') {
             // 业务数据查询
             console.log('业务数据查询')
             messages = await creatBusMessage(req, content, addToTemp, historyId);
@@ -175,7 +179,7 @@ router.post('/', async (req, res) => {
             // 选择记录问题 且能查询到对应的集合
             const qt = new QuestionTemp({
                 text: content,
-                role: roleInfo.code,
+                role: type,
                 source: 'user'
             })
             await qt.save()
@@ -195,7 +199,7 @@ router.post('/', async (req, res) => {
         const allMessages = await getChatByHistory(historyId)
         const messageList = allMessages.map(m => ({ role: m.role, content: m.content }))
         // 异步更新，不阻塞
-        updateLongTermMemory(userId, roleInfo.code, messageList).catch(err => console.error('记忆更新失败:', err))
+        updateLongTermMemory(userId, type, messageList).catch(err => console.error('记忆更新失败:', err))
 
         writeSSE(res, 'done', { status: 'success' })
         res.end()
